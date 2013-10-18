@@ -2,18 +2,18 @@ title:            Site Title
 tagline:          A short tagline
 description:      Describe your website.
 #Comment out url when working locally to resolve base urls correctly
-url:              http://your-site.com
+#url:              http://your-site.com
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Thomas Mayfield
   avatar:         bio-photo.jpg
   bio:            "Describe your self."
-  email:          your@email.com
+  email:          Thomas.Mayfield@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        
+  twitter: thegreatape
   facebook:       
-  github:         
+  github: thegreatape
   linkedin:       
   instagram:      
   lastfm:         
