@@ -1,6 +1,6 @@
 ---
 published: false
-title: ""
+title: Postgres connection errors after upgrading Ruby
 ---
 
 After I recently upgraded Ruby 2.0.0 from p195 to p247, I started getting this error when starting some of my Rails projects for development:
