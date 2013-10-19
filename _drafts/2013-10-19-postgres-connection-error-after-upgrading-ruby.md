@@ -12,4 +12,4 @@ Is the server running locally and accepting connections on Unix domain socket "/
 
 The solution, as it turned out, was pretty simple: the `config/database.yml` file in the affected project was missing an explict entry for the database hostname. Adding `host: localhost` to the test and development entries got things rolling again.
 
-A shiny nickle to anyone who can tell me why what changed between minor patchlevels of Ruby to cause this (or perhaps, why it worked before without an explict host setting). 
+A shiny nickle to anyone who can tell me why what changed between minor patchlevels of Ruby to cause this (or perhaps, why it worked before without an explict host setting).
