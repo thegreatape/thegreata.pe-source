@@ -2,7 +2,7 @@ title:            Zen Hacking
 tagline:          Duct Tape and Turing Machines
 description:      Describe your website.
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://your-site.com
+url:              http://zen-hacking.com
 
 # Owner/author information
 owner:
