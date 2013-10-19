@@ -1,3 +1,8 @@
+---
+published: false
+title: Postgres connection error after upgrading Ruby
+---
+
 After I recently upgraded Ruby 2.0.0 from p195 to p247, I started getting this error when starting some of my Rails projects for development:
 
 ```
@@ -5,6 +10,6 @@ After I recently upgraded Ruby 2.0.0 from p195 to p247, I started getting this e
 Is the server running locally and accepting connections on Unix domain socket "/var/pgsql_socket/.s.PGSQL.5432"?
 ```
 
-The solution, as it turned out, was pretty simple: the `config/database.yml` file in the affect projected was missing an explict entry for the database hostname. Adding `host: localhost` to the test and development entries got things rolling again.
+The solution, as it turned out, was pretty simple: the `config/database.yml` file in the affected project was missing an explict entry for the database hostname. Adding `host: localhost` to the test and development entries got things rolling again.
 
 A shiny nickle to anyone who can tell me why what changed between minor patchlevels of Ruby to cause this (or perhaps, why it worked before without an explict host setting). 
