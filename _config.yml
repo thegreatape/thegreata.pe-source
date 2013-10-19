@@ -1,5 +1,5 @@
-title:            Site Title
-tagline:          A short tagline
+title:            Zen Hacking
+tagline:          Duct Tape and Turing Machines
 description:      Describe your website.
 #Comment out url when working locally to resolve base urls correctly
 #url:              http://your-site.com
@@ -8,24 +8,24 @@ description:      Describe your website.
 owner:
   name:           Thomas Mayfield
   avatar:         bio-photo.jpg
-  bio:            "Describe your self."
+  bio:            "I’m a hacker who’s into Rails, Javascript, and the weirdly beautiful chaos of people making software together. <br/><br/> I build damn good products with damn good people at <a href=\"http://terriblelabs.com/\">Terrible Labs</a>."
   email:          Thomas.Mayfield@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter: thegreatape
-  facebook:       
+  facebook:
   github: thegreatape
-  linkedin:       
-  instagram:      
-  lastfm:         
-  tumblr:         
+  linkedin:
+  instagram:
+  lastfm:
+  tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics:
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -34,11 +34,6 @@ links:
     url: /about
   - title: Articles
     url: /articles
-  - title: Theme Setup
-    url: /theme-setup
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
