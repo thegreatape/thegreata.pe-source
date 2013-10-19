@@ -8,7 +8,7 @@ description:      Describe your website.
 owner:
   name:           Thomas Mayfield
   avatar:         bio-photo.jpg
-  bio:            "I’m a hacker who’s into Rails, Javascript, and the weirdly beautiful chaos of people making software together. <br/><br/> I build damn good products with damn good people at <a href=\"http://terriblelabs.com/\">Terrible Labs</a>."
+  bio:            "I’m a hacker who’s into Rails, Javascript, and the weirdly beautiful chaos of people making software together."
   email:          Thomas.Mayfield@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter: thegreatape
