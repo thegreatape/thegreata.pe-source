@@ -20,7 +20,7 @@ Backbone Views encourage better patterns in a couple ways:
 
 Let's look at a trivial Backbone View that represents a navigation bar.
 
-```javascript
+{% highlight javascript %}
 App.NavigationView = Backbone.View.Extend({
   el: '#nav',
   events: {
@@ -30,7 +30,7 @@ App.NavigationView = Backbone.View.Extend({
     // ...
   }
 })
-```
+{% endhighlight %}
 
 This view binds to the existing element on the page with the id `nav` - this element becomes the view's root. All elements under it can be considered direct properties of the view, and only this view should directly manipulate them. The `events` property in the view's configuration options here binds click events on elements matching the selector `li.item` to the view's `navigate` method. _This is automatically scoped to only match elements that are descendents of the View's root element_. We'll only ever match events from our private DOM elements, and other Backbone components on the page won't match events from our elements.
 
@@ -42,7 +42,7 @@ Setting up scoped event binding is great for maintaining our limited knowledge a
 
 Backbone provides a convenient way to make a query scoped to just the view's elements: the `this.$` function. Nothing fancy going on here: in a Backbone View, the root element of the View's DOM is bound to `this.el`, so `this.$` is just sugared-up `$(this.el).find`. Let's take our navigation bar example from above again. We'll make it set a current location field when you click on a navigation link.
 
-```javascript
+{% highlight javascript %}
 App.NavigationView = Backbone.View.Extend({
   el: '#nav',
   events: {
@@ -53,7 +53,7 @@ App.NavigationView = Backbone.View.Extend({
     this.$('.location').text(location)
   }
 })
-```
+{% endhighlight %}
 
 Nothing much surprising going on here: we grab the text from the link and plunk it down inside the element with class `location`. But consider what we got by using the view's scoped selector instead of a document-wide query: 
 
