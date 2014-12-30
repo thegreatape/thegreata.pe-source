@@ -1,0 +1,72 @@
+---
+layout: post
+title: 2014 Year End Notes
+description: Another year, another time for rambling retrospection and course adjustment.
+---
+
+Another year, another time for rambling retrospection and course adjustment.
+
+## Reading
+
+I met my [50 books/ year reading challenge](https://www.goodreads.com/challenges/1914-2014-reading-challenge), again. I've maintained this pace since I decided to change my reading habits three years ago and am very happy that I've been able to make it a more or less automatic part of my life.
+
+A quick breakdown of what I read:
+
+| Genre / Subject   | Count |
+|:---------------   |:----- |
+| Science Fiction   | 21    |
+| Fantasy           | 13    | 
+| Technical         |  4    |
+| Fitness           |  6    |
+| Other Non-Fiction |  9    |
+
+What to do differently next year?
+
+_Fix the gender disparity_: Out of the 53 books I read this year, 5 were by women. Yikes. I didn't even think to pay attention to the balance here until a discussion with a friend yesterday. Clearly, this is something I should be more mindful of.
+
+_More technical books_: Four books relating to what I do professionally isn't *bad*, considering that these tend to be a large time investment, but I think I'd like to do better. I'm going to shoot for eight next year.
+
+_Notable List_: The books that tickled my fancy the most this year were:
+
+* [Working Effectively With Legacy Code by Michael Feathers](https://www.goodreads.com/book/show/44919.Working_Effectively_with_Legacy_Code): I first read this many years ago and it remains the best writing I've ever read on how to start turning around a legacy software project. Feathers' techniques are pragmatic and his willingness to present advice as a series of it-depends and tradeoffs is something I wish was common in other technical writing.
+
+* [The Emperor of All Maladies by Siddhartha Mukherjee](https://www.goodreads.com/book/show/7170627-the-emperor-of-all-maladies) Both a history of cancer and a look into how the disease works. Moving and educational.
+
+* [God's War by Kameron Hurley](https://www.goodreads.com/book/show/9359818-god-s-war) A sci-fi noir story with tremendous worldbuilding that manages someone how to be both brutally violent and eminently feminist.
+
+* [Echopraxia by Peter Watts](https://www.goodreads.com/book/show/18490708-echopraxia) The sequel to [Blindsight](https://www.goodreads.com/book/show/48484.Blindsight), one of my favorites from last year, Echopraxia was just as bleakly beautiful and intellectually disturbing.
+
+## Lifting
+
+I set [lifting goals for myself](https://twitter.com/thegreatape/status/422111860796579840) at the start of 2014. Here's how it went:
+
+| Lift           | Year Starting 1RM | Goal 1RM | Year Ending 1RM |
+|:-------------- |:----------------- |:-------- |:--------------- |
+| Deadlift       | 355 lbs           | 400 lbs  | 390 lbs         |
+| Squat          | 300 lbs           | 350 lbs  | see below       |
+| Bench          | 215 lbs           | 250 lbs  | 225 lbs         |
+| Overhead Press | 150 lbs           | 170 lbs  | 160 lbs         |
+
+As you can see, I was entirely too optimistic and failed to hit any of these goals! That said, I'm still happy with how my training went this year.
+
+_Turn Up The Volume_: I can handle a ton more volume now. I was running Wendler's 5/3/1 at the start of 2014—a relatively low volume program—and was still exhausted by the end of each workout. Through slow addition of volume and a bit more conditioning, I've adjusted to [much higher volume programming](http://swoleateveryheight.blogspot.com/2014/07/the-gzcl-method-simplified_13.html), and 5/3/1 feels like something I'd do during a deload week. I think this should help set me up to keep pushing the intensity in the new year. It also gives me more recovery breathing room to add in more conditioning, something I also want to do more of.
+
+_Back Squatting_: The back squat and I are undergoing a trial separation. I had to take a lot of time off in the first part of the year due to back and hip tweaks that always seemed to hit me when the back squat intensity got too high. What's been working well for the past few months has been replacing back squats entirely with a combination of front squats and Bulgarian split squats. Both are still full-body squatting motions, but don't stress the lower back as much. I lift for fun and to challenge myself, so unless I intend to enter a powerlifting competition, I don't really see a reason for me to go back to back squatting.
+
+_Next Year's Goals_: I want to change things up a bit and focus on just two lifts for absolute strength goals while also adding in a conditioning goal. I'll still be doing squat and bench variants, but more as accessories to bring up the press and deadlift. By the end of 2015, I want to be able to hit:
+
+| Lift             | Goal 1RM                   |
+|:---------------- |:-------------------------- |
+| Deadlift         | 405 lbs                    |
+| Overhead Press   | 170 lbs                    |
+| Kettlebell Swing | 200 x 53 lbs in 10 minutes |
+
+## Programming
+
+_Tour de Babel_: I spent a lot of my non-professional coding time in 2014 exploring different languages. And boy, did I have a lot of fun. I wrote a [recording HTTP proxy](https://github.com/thegreatape/betamax) in Go, [messed around with the Goodreads API](https://github.com/thegreatape/book-calendar) in Clojure, and worked through [Dave Thomas's wonderful book on Elixir](https://pragprog.com/book/elixir/programming-elixir). Writing up all my thoughts on these languages would take entirely too much space, so suffice to say that my language tour was a long overdue exercise in brain stretching, and maybe more than a bit of trying to see where things go professionally for me after Ruby.
+
+After spending this year going broad, I think it's time to get out of perpetual beginner mode go deep, and really begin to learn one of either Go, Clojure or Elixir in the new year. Signs point to Clojure right now, but I haven't totally decided.
+
+_Mobile development_: Professionally speaking, I spent the majority of my time this year doing mobile development. I worked on two iOS apps using RubyMotion, open-sourced a [library for screenshot-driven testing](https://github.com/terriblelabs/motion-juxtapose), and rebuilt an Android app with native Java and Android Studio.
+
+I have to say, while I certainly learned a lot and enjoyed some of the challenges, I'm increasingly of the opinion that the current state of mobile app development is not my cup of tea. There's another whole essay here, I think, so in brief: limited choices in app architecture, vast and ever-evolving black box APIs, and testing tools that are frankly embarassing to the industry wound up being frustrating for me. I can see working on mobile apps as part of a full-stack effort in the future, but I don't think I want to devote myself to mobile full-time as things stand right now.
