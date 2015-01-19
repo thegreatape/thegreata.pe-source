@@ -1,14 +1,14 @@
 title:            Zen Hacking
 tagline:          Duct Tape and Turing Machines
-description:      Describe your website.
+description:      Duct Tape and Turing Machines
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://zen-hacking.com
+url:              http://zen-hacking.com
 
 # Owner/author information
 owner:
   name:           Thomas Mayfield
-  avatar:         bio-photo.jpg
-  bio:            "I’m a hacker who’s into Rails, RubyMotion, Javascript, and the weird beautiful chaos of people making software together."
+  avatar:         bio-photo.png
+  bio:            "I’m a programmer who loves the weird beautiful chaos of humans building software together."
   email:          Thomas.Mayfield@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter: thegreatape
