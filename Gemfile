@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
-gem 'jekyll-minibundle'
+gem 'github-pages'
 gem 'coderay'
 gem 'rake'
