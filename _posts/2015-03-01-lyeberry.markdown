@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Lyeberry: a new search backend for Literate Minuteman"
+---
+
+Over the last week, I rolled out some big improvements to the way [Literate Minuteman](http://www.literate-minuteman.com/) searches for books behind the scenes. I want to share some of the ideas behind the new architecture and some thoughts on my first experience with building a web app in Clojure.
+
+### The Old Way: Capybara and Poltergeist
+
+In Literate Minuteman, looking up a book's availability is done in the background, as part of a set of nightly background jobs run under Resque. Each job would fire up a headless PhantomJS browser via [Poltergeist](https://github.com/teampoltergeist/poltergeist), visit the library's search pages, and retreive the books as a real user would. It made for nice [page object](http://martinfowler.com/bliki/PageObject.html) style classes: the old [Overdrive lookup strategy](https://github.com/thegreatape/literate-minuteman/blob/c03183fbfe613b78b2672ca6426c6f711806597a/app/models/lookup_strategies/overdrive.rb) is a good example.
+
+While it was easy to create these scrapers, this approach had a couple of big disadvantages.
+
+*Hard To Debug*: Even though the code was easy to read, it was often hard to debug why something wasn't working. PhantomJS uses Webkit to load and render web pages just like Chrome or Firefox would, Javascript execution and all. This introduced timing issues that made a search work correctly sometimes and fail others. The Poltergeist API helped by retrying certain commands until a timeout is reached, but this required me to remember which calls would retry and which wouldn't—for example, `find` waits for a matching element to appear, while `all` returns immediately.
+
+*Mysterious Crashes*: Even worse, PhantomJS was run by Poltergeist as a separate process and would sometimes outright crash, leaving little information behind as to the cause. I hit a dead end trying to consistently reproduce these crashes, let alone fix them.
+
+*Slow*: The nail in the coffin for the Poltergeist-based approach was how slow it was. Each book search would take between 10-20 seconds, due to the overhead of firing up a PhantomJS process and loading each page's entire set of images, styles and Javascript. Switching to Sidekiq to run more instances of PhantomJS under a single Heroku worker was a bust—I'd get mysterious resource contention issues that only went away when I dialed the Sidekiq concurrency down to a single thread. With about 8000 books in the system, it was getting to the point where the nightly book lookup jobs wouldn't have completed by the next night's scheduled run. I had to change something.
+
+### Independent Services To The Rescue
+
+To fix this, I built a new independent application purely for book lookup, called [Lyeberry](http://github.com/thegreatape/lyeberry). It exposes each library system as a RESTful endpoint that talks JSON over HTTP. Retrieving all the copies of a book is just a simple GET request; for example, you could find all the copies of Kafka's _Metamorphosis_in the Boston system by hitting:
+
+{% highlight bash %}
+{% raw %}
+GET http://lyeberry.herokuapp.com/systems/boston/books?author=Franz+Kafka&title=Metamorphosis
+{% endraw %}
+{% endhighlight %}
+
+On the Rails side, Minuteman's nightly background jobs now just issue simple HTTP requests to Lyeberry to get an array of available copies of each book.
+
+Instead of firing up a browser as an independent process to interact with the library's site, Lyeberry uses a more traditional scraping approach in just directly fetching and parsing the HTML of the pages it needs. The resulting code wound up being about the same size and complexity as the Poltergeist scrapers; see the [new Minuteman system scraper](https://github.com/thegreatape/lyeberry/blob/master/src/lyeberry/minuteman.clj) for an example.
+
+And yes, it's much faster. While still bound by the speed of an external HTTP lookup or two, each query now typically takes 1-2 seconds—an order of magnitude improvement over the old system. It should scale better as well; without the constraint of one PhantomJS process at a time, I switched Minuteman's background job processer over to Sidekiq. Since Sidekiq's concurrency mechanism is thread-based instead of process-based, I can dial up the concurrency from the Minuteman side without having to pay for more Heroku workers. Win, win.
+
+### <3 Clojure
+
+Lyeberry is my first real Clojure project and I've got to say I'm loving it so far. I'm using [Enlive](https://github.com/cgrand/enlive) and [clj-http](https://github.com/dakrone/clj-http) for the scraping parts and serving the results up with [Compojure](https://github.com/weavejester/compojure) and [Ring](https://github.com/ring-clojure/ring). I'm still getting used to having a more powerful REPL available, but when I remember to use it, the [vim-fireplace](https://github.com/tpope/vim-fireplace) integration is great.
+
+I wound up spinning off my first independent Clojure library while building Lyeberry: [ring-raygun](http://github.com/thegreatape/ring-raygun) sends uncaught exceptions to the [Raygun](http://raygun.io) error monitoring service. I felt like this was my first time experiencing how Clojure's favoring primitive data structures over custom objects worked to encourage extension. Requests in Ring are just hashes and middleware handlers are just a functions that can wrap another function—structures that if you know Clojure, you already know how to use. It was easy enough to understand that even a Clojure newbie like myself was able to build a useful extension without learning a totally new set of APIs.
+
+The testing story in Clojure has also been superb so far. I'm using [Midje](https://github.com/marick/Midje) to write my specs with an example-like syntax. It's got a great Guard-like autotesting feature that you can run independently or right in your REPL session. When you save a file, `autotest` automatically runs the specs of that namespace—and it's extremely fast. Discounting the initial startup time, the whole app's tests run in less than a second. That's a seriously great feedback loop, especially when it doubles as an interactive REPL session.
+
+Unsurprisingly, Clojure's emphasis on immutable data structures and functional programming make tests pretty easy to write. Separating most of the business logic out into pure functions with no I/O or side effects seems to be a helpful pattern. For example, the [Minuteman scraper tests](https://github.com/thegreatape/lyeberry/blob/master/test/lyeberry/minuteman_test.clj) mostly concern themselves with making sure an HTML string is correctly parsed into copies of books. This lets me feed those functions HTML from a fixture file during the tests and from a live HTTP request in production or development. This is a pattern I've had a lot of success with in other languages, and it makes me very happy to see Clojure's path of least resistance push one towards using pure functions for the sake of testability.
+
+I have so much more to learn about Clojure, but I'm really happy with how it's going so far. I'm looking forward to being able to cringe at all the amateur mistakes I'm sure I've made here.
