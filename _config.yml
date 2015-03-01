@@ -1,5 +1,5 @@
-title:            Zen Hacking
-tagline:          Duct Tape and Turing Machines
+title:            Duct Tape and Turing Machines
+tagline:
 description:      Duct Tape and Turing Machines
 #Comment out url when working locally to resolve base urls correctly
 url:              http://thegreata.pe
@@ -8,7 +8,7 @@ url:              http://thegreata.pe
 owner:
   name:           Thomas Mayfield
   avatar:         bio-photo.png
-  bio:            "I’m a programmer who loves the weird beautiful chaos of humans building software together."
+  bio:            "Polyglot programmer who loves the weird beautiful chaos of humans building software together. Currently spending most of my time in Ruby, Javascript and Clojure."
   email:          Thomas.Mayfield@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter: thegreatape
