@@ -3,16 +3,22 @@ layout: post
 title: "Extracting Testable Javascript From jQuery Soup"
 ---
 
-I'm talking about writing unit tests here: isolated tests for specific pieces of code, rather than integration-style tests that involve firing up a browser and walking through your whole app as a user. (You want those too, but in moderation.)
+I'm not sure where the phrase "jQuery Soup" orginated, but it's an apt description of a common failure mode Javascript code can fall into as it grows and changes. It's characterized by Javascript that has little structure and no separation of concerns, mixing together HTTP calls, DOM manipulation, user event handling and business logic into a big pile of callbacks.
 
-## What's jQuery Soup?
+Beyond just looking ugly, soupy Javascript code has a high carrying cost because it tends to be hard to change, expensive to test or often both. With its lack of structure, code written this way can be tested only by high-level end to end tests using tools like Selenium or Poltergeist. This kind of full-stack integration test is important to have, but in moderation: they tend to be slow and provide very indirect feedback when something breaks.
+
+If we want to turn our soup into something easier to change, we need to restructure it so we can write isolated unit tests against it.
 
 ## Why?
 
-* Fast! Like, really fast. (as opposed to browser-driven full-stack integration tests which are slow. like, really slow.)
-* Locality of errors
+Correctly written unit tests using modern JS testing frameworks like Mocha or Jasmine are really. freaking. fast. And not just in comparison to end to end tests, which are notoriously slow—a typical unit test should be executable in a small fraction of second and a suite of hundreds should take a handful of seconds to run. The producitivity impact of speedy tests on a feedback loop during development really cannot be understated.
+
+Beyond speed, isolated test provide better locality of errors; when tests fail they're more likely point you to the specific area of code that's gone wrong.
+
 * Less expensive to test edge cases
 * Writing code that can be tested in relative isolation naturally leads to more loosely coupled code that's easier to change as time goes on
+
+This is, of course, nothing new. Correctly written isolated unit tests have *always* been faster than integration tests involving more of the application.
 
 ## How?
 
