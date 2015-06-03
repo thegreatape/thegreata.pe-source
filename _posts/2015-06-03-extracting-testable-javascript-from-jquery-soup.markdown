@@ -248,6 +248,6 @@ describe "UserSearchForm", ->
 {% endraw %}
 {% endhighlight %}
 
-# Better
+## Better
 
 The code we wound up at the end of this refactoring isn't perfect, but that's not the point. What's most important is that we've established a beachhead of tests to watch our backs while we keep improving it. All by just applying some of the simple object oriented design principals we already knew!
