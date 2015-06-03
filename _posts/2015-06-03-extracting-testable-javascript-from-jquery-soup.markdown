@@ -3,7 +3,7 @@ layout: post
 title: "Extracting Testable Javascript From jQuery Soup"
 ---
 
-I'm not sure where the phrase "jQuery Soup" orginated, but it's an apt description of a failure mode Javascript code can fall into as it grows. It's characterized by code that has little structure and no separation of concerns, mixing together HTTP calls, DOM manipulation, user event handling and business logic into a big pile of callbacks.
+I'm not sure where the phrase "jQuery Soup" orginated, but it's an apt description of a failure mode that Javascript code can fall into as it grows. It's characterized by code that has little structure and no separation of concerns, mixing together HTTP calls, DOM manipulation, user event handling and business logic into a big pile of callbacks.
 
 Beyond just looking ugly, soupy Javascript has a high carrying cost because it tends to be hard to change and expensive to test. With its lack of structure, code written this way can be tested only by high-level end-to-end tests, using tools like [Selenium](http://www.seleniumhq.org/) or [Poltergeist](https://github.com/teampoltergeist/poltergeist). Full-stack integration tests are important to have, but in moderation: they tend to be slow and provide very indirect feedback when something breaks.
 
