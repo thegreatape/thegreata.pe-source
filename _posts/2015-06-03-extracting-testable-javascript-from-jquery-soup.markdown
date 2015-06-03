@@ -3,7 +3,7 @@ layout: post
 title: "Extracting Testable Javascript From jQuery Soup"
 ---
 
-I'm not sure where the phrase "jQuery Soup" orginated, but it's an apt description of a failure mode that Javascript code can fall into as it grows. It's characterized by code that has little structure and no separation of concerns, mixing together HTTP calls, DOM manipulation, user event handling and business logic into a big pile of callbacks.
+I'm not sure where the phrase "jQuery Soup" originated, but it's an apt description of a failure mode that Javascript code can fall into as it grows. It's characterized by code that has little structure and no separation of concerns, mixing together HTTP calls, DOM manipulation, user event handling and business logic into a big pile of callbacks.
 
 Beyond just looking ugly, soupy Javascript has a high carrying cost because it tends to be hard to change and expensive to test. With its lack of structure, code written this way can be tested only by high-level end-to-end tests, using tools like [Selenium](http://www.seleniumhq.org/) or [Poltergeist](https://github.com/teampoltergeist/poltergeist). Full-stack integration tests are important to have, but in moderation: they tend to be slow and provide very indirect feedback when something breaks.
 
@@ -13,7 +13,7 @@ If we want to turn our soup into something easier to change, we need to restruct
 
 Correctly written unit tests using modern JS testing frameworks like [Mocha](http://mochajs.org/) or [Jasmine](http://jasmine.github.io/) are really freaking fast: a typical unit test should be executable in a small fraction of second and a suite of hundreds should take a handful of seconds to run. The productivity impact of speedy tests on the development feedback loop really cannot be understated: it's a lot easier to stay focused and in the zone when your tests can finish running before you switch windows from text editor to browser.
 
-Beyond speed, isolated tests provide better locality of errors; when unit test fail they're more likely than end-to-end tests to point you to the specific area of code that's gone wrong. They also encourage better testing of edge cases and failure modes; well-isolated tests mean there's less setup for each scenario, and so less friction for writing new ones.
+Beyond speed, isolated tests provide better locality of errors; when unit tests fail they're more likely than end-to-end tests to point you to the specific area of code that's gone wrong. They also encourage better testing of edge cases and failure modes; well-isolated tests mean there's less setup for each scenario, and so less friction for writing new test cases.
 
 ## How?
 
@@ -60,7 +60,7 @@ class @UserSearch
 {% endraw %}
 {% endhighlight %}
 
-Now the code that's run on page load can simply instantiate an instance of `UserSearch` and call `bindForm`:
+Now the code that's run on page load can simply create an instance of `UserSearch` and call `bindForm`:
 
 {% highlight coffeescript %}
 {% raw %}
@@ -85,9 +85,9 @@ Wahoo! But we can't test anything useful yet.
 
 Our code has two external dependencies we need to deal with before we can test anything useful: the DOM and the HTTP search API.
 
-*DOM Fixtures*: Our `UserSearch` class depends on three elements being present on the page: a input to read the search query from, a button to click to submit the query, and a container to fill with search results. We can use jQuery to construct a minimal set of elements that fulfill this contract and insert it into the test runner's DOM in the `beforeEach` function.
+*DOM Fixtures*: Our `UserSearch` class depends on three elements being present on the page: a input to read the search query from, a button to click to submit the query, and a container to fill with search results. We can use jQuery to construct a minimal set of elements that fulfill this contract and insert it into the test runner's DOM in the `beforeEach` hook.
 
-*HTTP search API*: `UserSearch` also depends on being able to retreive JSON search results by hitting `/users/search` with an Ajax request. We can use SinonJS's excellent high-level Ajax request mocking to build out a mock server that responds with fake search results.
+*HTTP search API*: `UserSearch` also depends on being able to retrieve JSON search results by hitting `/users/search` with an Ajax request. We can use [SinonJS's](http://sinonjs.org/) excellent high-level Ajax request mocking to build out a mock server that responds with fake search results.
 
 With tools for mocking both our external dependencies, we can finally write a meaningful test:
 
@@ -129,9 +129,9 @@ describe "UserSearch", ->
 
 ### Follow The Single-Responsibility Principal
 
-The above test requires a lot of mocking for single test. It's also not great object-oriented design: we've just taken procedural code and wrapped an object around it for encapsulation. The Single-Responsbility Principal says that it's good idea to have an object be responsbile for a single thing. What if we split `UserSearch` into two classes: one for talking to the search API and one for managing the DOM?
+The above test requires a lot of mocking for single test. It's also not great object-oriented design: we've just taken procedural code and wrapped an object around it for encapsulation. The Single-Responsibility Principal says that it's a good idea to have an object be responsible for a single thing. What if we split `UserSearch` into two classes: one for talking to the search API and one for managing the DOM?
 
-Let's create a `UserStore` class to abstract away the details of fetching our search results. It'll just be responsbile for talking to the backend and passing the search results along to the caller.
+Let's create a `UserStore` class to abstract away the details of fetching our search results. It'll just be responsible for talking to the backend and passing the search results along to the caller.
 
 {% highlight coffeescript %}
 {% raw %}
@@ -176,7 +176,7 @@ describe "UserStore", ->
 
 ### Inject JS Dependencies
 
-Our `UserSearch` class now just manages the DOM and delegates the details of actually fetching the search results to its `UserStore`. Let's rename it to `UserSearchForm` to reflect its new responsibilities and take a look:
+Our `UserSearch` class now only manages the DOM and delegates the details of actually fetching the search results to its `UserStore`. Let's rename it to `UserSearchForm` to reflect its new responsibilities and take a look:
 
 {% highlight coffeescript %}
 {% raw %}
@@ -194,7 +194,7 @@ class @UserSearchForm
 {% endraw %}
 {% endhighlight %}
 
-But there's a problem here. Our tests for this class still have to include our fake ajax server or they won't work—even though the code under test has nothing to do with HTTP requests now.
+But there's a problem here. Our tests for this class still have to include our fake Ajax server or they won't work—even though the code under test has nothing to do with HTTP requests now.
 
 To solve this, we'll use dependency injection to pass our store in as a constructor argument. Frameworks like AngularJS makes "dependency injection" sound really complicated, but it doesn't have to be. We're just changing `UserSearchForm`'s constructor from one that creates a new instance of a specific class of store to one that takes a store as an argument:
 
@@ -206,7 +206,7 @@ class @UserSearchForm
 {% endraw %}
 {% endhighlight %}
 
-And the code to instantiate this on the actual page becomes:
+And the code to instantiate the form on the actual page becomes:
 
 {% highlight coffeescript %}
 {% raw %}
@@ -215,7 +215,7 @@ $ ->
 {% endraw %}
 {% endhighlight %}
 
-Now we can easily use a fake collaborator in our test instead of a real `UserStore`; we'll just use a plain Javascript object that implements the same contract that the real store honors, but (like our Ajax server mock) returns stock data.
+Now we can use a fake collaborator in our test instead of a real `UserStore`; we'll just use a plain Javascript object that implements the same contract that the real store honors, but (like our Ajax server mock) returns stock data.
 
 {% highlight coffeescript %}
 {% raw %}
