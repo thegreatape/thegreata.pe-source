@@ -3,28 +3,23 @@ layout: post
 title: "Extracting Testable Javascript From jQuery Soup"
 ---
 
-I'm not sure where the phrase "jQuery Soup" orginated, but it's an apt description of a common failure mode Javascript code can fall into as it grows and changes. It's characterized by Javascript that has little structure and no separation of concerns, mixing together HTTP calls, DOM manipulation, user event handling and business logic into a big pile of callbacks.
+I'm not sure where the phrase "jQuery Soup" orginated, but it's an apt description of a failure mode Javascript code can fall into as it grows. It's characterized by code that has little structure and no separation of concerns, mixing together HTTP calls, DOM manipulation, user event handling and business logic into a big pile of callbacks.
 
-Beyond just looking ugly, soupy Javascript code has a high carrying cost because it tends to be hard to change, expensive to test or often both. With its lack of structure, code written this way can be tested only by high-level end to end tests using tools like Selenium or Poltergeist. This kind of full-stack integration test is important to have, but in moderation: they tend to be slow and provide very indirect feedback when something breaks.
+Beyond just looking ugly, soupy Javascript has a high carrying cost because it tends to be hard to change and expensive to test. With its lack of structure, code written this way can be tested only by high-level end-to-end tests, using tools like [Selenium](http://www.seleniumhq.org/) or [Poltergeist](https://github.com/teampoltergeist/poltergeist). Full-stack integration tests are important to have, but in moderation: they tend to be slow and provide very indirect feedback when something breaks.
 
 If we want to turn our soup into something easier to change, we need to restructure it so we can write isolated unit tests against it.
 
 ## Why?
 
-Correctly written unit tests using modern JS testing frameworks like Mocha or Jasmine are really. freaking. fast. And not just in comparison to end to end tests, which are notoriously slow—a typical unit test should be executable in a small fraction of second and a suite of hundreds should take a handful of seconds to run. The producitivity impact of speedy tests on a feedback loop during development really cannot be understated.
+Correctly written unit tests using modern JS testing frameworks like [Mocha](http://mochajs.org/) or [Jasmine](http://jasmine.github.io/) are really freaking fast: a typical unit test should be executable in a small fraction of second and a suite of hundreds should take a handful of seconds to run. The productivity impact of speedy tests on the development feedback loop really cannot be understated: it's a lot easier to stay focused and in the zone when your tests can finish running before you switch windows from text editor to browser.
 
-Beyond speed, isolated test provide better locality of errors; when tests fail they're more likely point you to the specific area of code that's gone wrong.
-
-* Less expensive to test edge cases
-* Writing code that can be tested in relative isolation naturally leads to more loosely coupled code that's easier to change as time goes on
-
-This is, of course, nothing new. Correctly written isolated unit tests have *always* been faster than integration tests involving more of the application.
+Beyond speed, isolated tests provide better locality of errors; when unit test fail they're more likely than end-to-end tests to point you to the specific area of code that's gone wrong. They also encourage better testing of edge cases and failure modes; well-isolated tests mean there's less setup for each scenario, and so less friction for writing new ones.
 
 ## How?
 
 Luckily, writing unit-testable Javascript is mostly a matter of following good object-oriented design principals.
 
-Let's look at some pretty vanilla, but hard to test jQuery code that's powering a search against a JSON api.
+Let's look at some jQuery code that's powering a search against a JSON API. It's pretty pedestrian code, but can't be unit tested as-is. This is a very simple example so as to fit comfortably in a blog post; imagine hundreds of lines structured in the same fashion as we go along.
 
 {% highlight coffeescript %}
 {% raw %}
@@ -41,9 +36,11 @@ $ ->
 {% endraw %}
 {% endhighlight %}
 
+Let's refactor this code to get it under test.
+
 ### Make Your Code Instantiable In A Test Harness
 
-The minimum requirement for testable code is to be able to run the code itself inside a test harness. Our jQuery code above is a function that's executed once upon page load, making it inconvenient to test: how do we run it inside something like Jasmine or Mocha?
+The minimum requirement for testable code is to be able to run the code itself inside a test harness. Our jQuery code above is a function that's executed once upon page load: how do we run it inside something like Jasmine or Mocha?
 
 As a first step, we can extract the function's behavior wholesale to a new object that we can create in our tests. There's more decomposing of the behavior we could do, but the objective right now is just to it running inside a test harness.
 
@@ -88,7 +85,7 @@ Wahoo! But we can't test anything useful yet.
 
 Our code has two external dependencies we need to deal with before we can test anything useful: the DOM and the HTTP search API.
 
-*DOM Fixtures*: Our `UserSearch` class depends on three elements being present on the page: a input to read the search query from, a button to click to submit the query, and a container to fill with search results. We can use jQuery to construct a minimal set of elements that fulfill this contract and insert it into the test-runner's DOM in the `beforeEach` function.
+*DOM Fixtures*: Our `UserSearch` class depends on three elements being present on the page: a input to read the search query from, a button to click to submit the query, and a container to fill with search results. We can use jQuery to construct a minimal set of elements that fulfill this contract and insert it into the test runner's DOM in the `beforeEach` function.
 
 *HTTP search API*: `UserSearch` also depends on being able to retreive JSON search results by hitting `/users/search` with an Ajax request. We can use SinonJS's excellent high-level Ajax request mocking to build out a mock server that responds with fake search results.
 
@@ -132,11 +129,9 @@ describe "UserSearch", ->
 
 ### Follow The Single-Responsibility Principal
 
-The above test requires a lot of mocking for single test. It's also not great OO design: we've just taken procedural code and wrapped an object around it for encapsulation.
+The above test requires a lot of mocking for single test. It's also not great object-oriented design: we've just taken procedural code and wrapped an object around it for encapsulation. The Single-Responsbility Principal says that it's good idea to have an object be responsbile for a single thing. What if we split `UserSearch` into two classes: one for talking to the search API and one for managing the DOM?
 
-The Single-Responsbility Principal says that it's good design to have an object be responsbile for a single thing. What if we split `UserSearch` into two classes: one responsbile for talking to the search API and one for managing the DOM?
-
-Let's create a `UserStore` class to abstract away the details of fetching our search results. It'll just be responsbile for talking to the backend and passing the search results along to the caller
+Let's create a `UserStore` class to abstract away the details of fetching our search results. It'll just be responsbile for talking to the backend and passing the search results along to the caller.
 
 {% highlight coffeescript %}
 {% raw %}
@@ -181,7 +176,7 @@ describe "UserStore", ->
 
 ### Inject JS Dependencies
 
-Our `UserSearch` class now just manages the DOM and delegates the details of actually fetching the search results to its `UserStore`. Let's rename it to `UserSearchForm` to reflect its new responsibilities and take look:
+Our `UserSearch` class now just manages the DOM and delegates the details of actually fetching the search results to its `UserStore`. Let's rename it to `UserSearchForm` to reflect its new responsibilities and take a look:
 
 {% highlight coffeescript %}
 {% raw %}
@@ -201,7 +196,7 @@ class @UserSearchForm
 
 But there's a problem here. Our tests for this class still have to include our fake ajax server or they won't work—even though the code under test has nothing to do with HTTP requests now.
 
-To solve this, we'll use dependency injection to pass our store in as a constructor argument. Frameworks like AngularJS makes "dependency injection" sound really complicated, but it doesn't have to be. We're just changing `UserSearchForm` constructor from one that creates a new instance of specific class of store to one that takes an instance as an argument:
+To solve this, we'll use dependency injection to pass our store in as a constructor argument. Frameworks like AngularJS makes "dependency injection" sound really complicated, but it doesn't have to be. We're just changing `UserSearchForm`'s constructor from one that creates a new instance of a specific class of store to one that takes a store as an argument:
 
 {% highlight coffeescript %}
 {% raw %}
@@ -220,7 +215,7 @@ $ ->
 {% endraw %}
 {% endhighlight %}
 
-Now we can easily use a *fake collaborator* in our test instead of a real `UserStore`; we'll just use a plain Javascript object that implements the same contract the real one honors, but (like our Ajax server mock) returns stock data.
+Now we can easily use a fake collaborator in our test instead of a real `UserStore`; we'll just use a plain Javascript object that implements the same contract that the real store honors, but (like our Ajax server mock) returns stock data.
 
 {% highlight coffeescript %}
 {% raw %}
@@ -253,6 +248,6 @@ describe "UserSearchForm", ->
 {% endraw %}
 {% endhighlight %}
 
-### Restrict DOM Responsibility
+# Better
 
-This includes the DOM elements an object is responsible for managing!
+The code we wound up at the end of this refactoring isn't perfect, but that's not the point. What's most important is that we've established a beachhead of tests to watch our backs while we keep improving it. All by just applying some of the simple object oriented design principals we already knew!
