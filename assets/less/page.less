@@ -38,7 +38,7 @@ body {
 		display: inline;
 		margin-right: 25px;
 		white-space: nowrap;
-		a { 
+		a {
 			decoration: none;
 			border-bottom: 0 solid transparent;
 			.transition(all .2s);
@@ -67,19 +67,39 @@ body {
 	margin-bottom: 2em;
 	h3 {
 		margin: 0;
+    margin-top: 30px;
 		padding-bottom: .5em;
 		.font-rem(28);
 		border-bottom: 1px solid lighten(@black,70);
 	}
 	article {
+    padding-left: 70px;
+    margin-bottom: 20px;
+
 		h2 {
 			margin-bottom: 4px;
 			.font-rem(20);
 			text-transform: uppercase;
+
+      a {
+        display: inline-block;
+      }
+      a:visited {
+        color: black;
+      }
 		}
 		p {
 			.font-rem(14);
 		}
+
+    .post-date {
+      margin-left: -70px;
+      margin-top: 0;
+      color: #898989;
+      display: inline-block;
+      text-transform: uppercase;
+      float: left;
+    }
 	}
 }
 .image-wrap {
@@ -171,7 +191,7 @@ body {
 			border-bottom-style: solid;
 		}
 	}
-	p > a.reversefootnote, 
+	p > a.reversefootnote,
 	li > a.reversefootnote {
 		border-bottom-width: 0;
 	}
@@ -244,7 +264,7 @@ body {
 	margin: 1em 0;
 	li {
 		display: inline;
-		a { 
+		a {
 			border-bottom: 0 solid transparent;
 			&:hover {
 				border-bottom: 0 solid transparent;
@@ -273,12 +293,12 @@ body {
 	a.jp-current {
 		font-weight: bold;
 	}
-	a.jp-disabled, 
+	a.jp-disabled,
 	a.jp-disabled:hover {
 	}
-	a.jp-current, 
-	a.jp-current:hover,  
-	a.jp-disabled, 
+	a.jp-current,
+	a.jp-current:hover,
+	a.jp-disabled,
 	a.jp-disabled:hover {
 		cursor: default;
 		background: none;
@@ -305,7 +325,7 @@ body {
 	span {
 		color: darken(@white, 25);
 	}
-	span { 
+	span {
 		.font-rem(14);
 	}
 	a {
@@ -327,7 +347,7 @@ body {
 	.suffix(12,1);
 	margin-bottom: 2em;
 	h4 {
-		
+
 		text-transform: uppercase;
 		margin-bottom: 0;
 	}
@@ -427,6 +447,7 @@ body {
   h1 {
     margin-bottom: 0px;
     padding-bottom: 0px;
+    text-transform: uppercase;
   }
   time {
     display: block;
@@ -438,4 +459,3 @@ body {
 code {
   word-wrap: break-word;
 }
-
