@@ -1,0 +1,107 @@
+---
+layout: post
+title: 2015 Year End Notes
+---
+
+Even if New Year's resolutions are a terrible way to make lasting habit changes, I like using the end of the year as a reminder to take stock of how I did with respect to [last year's goals](http://thegreata.pe/2014-year-end-notes/) and see what I want to change.
+
+## Reading
+
+This was the first year in four years that I missed my [50 book reading challenge](https://www.goodreads.com/challenges/3082-2015-reading-challenge), having only read 44 books in 2015. 
+
+What happened? Mostly, life. My wife and I bought a house in August and for those that haven't gone through that process, house-buying will happily hoover up all your free time and then some. I also changed jobs in April, resulting in a shorter commute from then until August, when we moved into the new place. I do a significant chunk of my reading on the bus and subway, and even a commute just three stops shorter made a difference in my reading time when compounded twice a day, five times a week.
+
+That's not to say that 44 books in a year isn't respectable; I'm still pleased by how I've maintained my rebuilt reading habit. I just need to make sure I stay on track at this point.
+
+The breakdown of what I read by genre:
+
+| Genre / Subject    | Count |
+|:---------------    |:----- |
+| Fantasy            | 19    |
+| Science Fiction    | 12    |
+| Technical/Business |  4    |
+| Fitness            |  3    |
+| Other Non-Fiction  |  6    |
+
+I also set two specific reading goals last year:
+
+_Read more books by women_: Last year, only 5 out of the 53 books I read were by women. This year, it was 14 out of 44—from 9% to 30% is a improvement, but this is still something I need to pay more attention to.
+
+_Read 8 technical books_: This was an outright fail: I read 4 technical books, of which 3 could be more accurately described as books on tech cultural/business/careers.
+
+_Favorite Books This Year_:
+
+- [The Half-Made World](http://www.amazon.com/gp/product/0765325535) by Felix Gilman
+- [Nemesis Games](http://www.amazon.com/Nemesis-Games-Expanse-James-Corey/dp/0316217581) by James S.A. Corey
+- [The Traitor Baru Cormorant](http://www.amazon.com/Traitor-Baru-Cormorant-Seth-Dickinson/dp/0765380722) by Seth Dickison
+- [The Aeronaut's Windlass](http://www.amazon.com/Cinder-Spires-Aeronauts-Windlass/dp/0451466802) by Jim Butcher
+- [The Internet of Garbage](http://www.amazon.com/Internet-Garbage-Sarah-Jeong-ebook/dp/B011JAV030/) by Sarah Jeong
+
+#### 2016 Plans
+
+- Try for 50 books / year again. Commute reading from the new place seems to put me roughly on track for this by itself, so I don't think I'll be stretching for this one.
+
+- Do better in terms of reading non-fiction more broadly. This is important for creative work and being a well-rounded person. I've noticed that my non-fiction / fiction ratio skews towards fiction in direct correlation with my chronic stress levels, so hopefully not changing jobs and buying a house will help push me in the right direction.
+
+## Lifting
+
+After having failed to hit any of my lifting goals for 2014, I set what I thought were a set of more conversative and balanced goals for 2015.
+
+_Last Year's Goals_:
+
+| Lift             | Goal 1RM                   |
+|:---------------- |:-------------------------- |
+| Deadlift         | 405 lbs                    |
+| Overhead Press   | 170 lbs                    |
+| Kettlebell Swing | 200 x 53 lbs in 10 minutes |
+
+How'd I do?
+
+_Deadlift_: Nailed it. Hit a 415lbs pull in October. Might have had more in the tank—that was at the tail end of a workout, after the regular working sets.
+
+_Overhead Press_: Remember how I moved? Now I've got a squat rack and bar in my basement! It's wonderful—except that the ceilings are too low for me to overhead press a loaded barbell. I didn't beat my OHP PR (160lbs) before I moved, and I'm now focusing on rebuilding my bench press instead (which I'd neglected to focus on overhead. sigh.)
+
+_Kettlebell Swing_: In retrospect, this was a misguided goal. I wanted a goal that'd encourage me to improve my cardiovascular conditioning, but this proved very challenging to try and improve at the same time as improving my deadlift. Both are the same kind of fundamental human movement (hip hinge) and both are super taxing to the same parts of the body. I'd consistently feel beat up and under-recovered when trying to improve the swing and the deadlift concurrently. I got to 150 swings in 7:30 sometime in early November, but have since decided to back off pushing the swings. More on this in next year's goals.
+
+But!
+
+_Bringing Back Squatting Back_
+
+An unexpected bit of awesome this year is that I've resumed back squatting, pain-free! A couple things contributed to this: 
+
+- Consistent mobility work on my hips and ankles have slowly had lasting effects.
+- I got a pair of Olympic lifting shoes: the stable, raised heel helps compensate for some of the missing dorsiflexion in my ankles.
+- Getting a lifting belt helped teach me to brace my core correctly.
+
+#### 2016 Goals
+
+Strength is my main focus, and I'm going to set my 2016 goals accordingly. Here's what my powerlifting total looks like right now:
+
+| Lift        | Current 1RM                |
+|:------------|:-------------------------- |
+| Deadlift    | 415 lbs                    |
+| Squat       | 300 lbs (est)              |
+| Bench Press | 230 lbs (est)              |
+| *Total*       | *945 lbs (est)*              |
+
+By next year, I want to total over 1000 lbs. That's 20 lbs on each lift, on average. I think that's doable if I'm focused on strength and avoid getting hurt.
+
+I don't want to neglect conditioning while doing this, but I want to train it in a way that's more complimentary to my strength training. I want to be in good shape cardio-wise for general health, improved recovery, and to avoid going completely bearmode in the winter. So I'm just going to shoot for consistency: I want to average 2 cardio-centric workouts a week. If I'm feeling great, this can be HIIT-style swings, complexes, burpees, whatever. If I'm beat up or low on recovery budget, it'll be LISS-style running or stationary bike. Hopefully the freedom to adjust the style and intensity of my conditioning will make this easier to run along a serious strength training program.
+
+## Programming
+
+In terms of my outside-work projects, this year was almost exclusively devoted to mucking about in functional languages.
+
+- I [rewrote the library scraping backend](https://github.com/thegreatape/lyeberry) of Literate Minuteman in Clojure and wound up building a [Ring middleware error-tracking wrapper](https://github.com/thegreatape/ring-raygun) for [Raygun.io](raygun.io). I haven't done much with Clojure since, but I've love a chance to try out ClojureScript at some point.
+
+- I wrote a [multiplayer Conway's Game of Life](https://github.com/thegreatape/conway) implementation in Elixir using the Phoenix framework. Elixir is a really delightful language with great tooling. I love the idea of building in primitive-level features for what happens when things crash at the language and VM level.
+
+- I experimented with using Emacs (using modal editing via [evil](https://bitbucket.org/lyro/evil/wiki/Home) as my editor full-time from August to November. Ultimately, I learned that I do want to be able to deeply customize my editor, I found that the Emacs ideal seems to be trying to integration all of your tools into Emacs itself, binding them together with lisp. I found that for me, I wanted instead to compose my tools using the shell. For example, [Magit](http://magit.vc/) is a pretty amazing interface to Git for Emacs, but while using it I missed the history and easy composition with other basic unix tools that command-line git offered. I'm now back to tmux and vim, but I could see pulling emacs out again if I started working on a project where Emacs has superior IDE-like tooling, though—[Alchemist](http://www.alchemist-elixir.org/) for Elixir and [CIDER](https://github.com/clojure-emacs/cider) for Clojure come to mind. I'm glad I've got a ready-to-go evil config set up if that happens.
+
+#### 2016 Plans
+
+- Dive deeper into Elixir / OTP and learn enough Erlang to read libraries written in it.
+
+- Try out [Elm](http://elm-lang.org/). I'm fascinated by the idea of a type system that helps you instead of fights you. Plus, any project whose goals is to have the best compiler error messages of any language has their priorities straight. And it has a time-traveling debugger. This I've got to see.
+
+- Up my relational database game. What I know about SQL and relational database use has always been picked up just-in-time to solve whatever issues were in front of me. I want to go deeper into theory and best practices to get ahead of the curve here, as my job right now regularly involves writing, tuning and debugging queries against medium-large tables (tens of millions of rows). I'm going to start by reading [The Art of SQL](http://www.amazon.com/Art-SQL-Stephane-Faroult/dp/0596008945) early in the new year.
