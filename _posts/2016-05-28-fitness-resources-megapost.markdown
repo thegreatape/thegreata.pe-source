@@ -3,6 +3,8 @@ layout: post
 title: "Fitness Resources Megapost"
 ---
 
+_Last updated Feb 5th, 2017: see **[changelog](#changelog)**_
+
 I'm a huge fitness nerd, and I'll talk your ear off about all aspects of physical training given half a chance. I frequently wind up sending reading recommendations to people who're interested in knowing more after chatting, and figured it was time to put together a big list of the fitness resources I've gotten the most out of.
 
 Disclaimer: This is my hobby, not my profession. I don't train people and I'm not remarkably strong, fast, or flexible. But just as a regular person: this stuff has been lifechanging for me. I hope it helps someone else too.
@@ -15,7 +17,7 @@ Absolute strength is the athletic attribute that has the most carryover into eve
 
 Some books for building a conceptual framework to understand what fitness is all about and how to define and progress towards your individual goals:
 
-- __[The Art & Science of Lifting](http://strengtheory.com/art-and-science/)__ by Greg Nuckols and Omar Isof — Two relatively short ebooks that are probably the best introduction to the principals of successful strength training. As the titles suggest, they cover both practical techniques as well as the backing scientific research. For further reading, [Greg's Strengtheory blog](http://strengtheory.com) is a goldmine of good information.
+- __[The Art & Science of Lifting](http://www.strongerbyscience.com/art-and-science/)__ by Greg Nuckols and Omar Isof — Two relatively short ebooks that are probably the best introduction to the principals of successful strength training. As the titles suggest, they cover both practical techniques as well as the backing scientific research. For further reading, [Greg's Stronger By Science](http://www.strongerbyscience.com) is a goldmine of good information.
 
 - __[Fit](http://www.amazon.com/Fit-Lon-Kilgore/dp/0615497063)__ by Kilgore, Hartman, Laseck — Another good deep guide to the practice and science of fitness. Where _Art & Science_ covers mostly getting strong, _Fit_ goes into conditioning, mobility, and a bit of anatomy as well.
 
@@ -23,7 +25,7 @@ Some books for building a conceptual framework to understand what fitness is all
 
 ### <a name="beginner-barbell-programs"></a>[Beginner Barbell Programs](#beginner-barbell-programs)
 
-When you're new to strength training, you can progress in strength very rapidly. Beginner programs are tailored to take advantage of that. The ones below are all slightly different, but they'll all get you strong. Pick one, read it, understand how it works, then run it 'til it stops working for you.
+When you're new to strength training, you can progress in strength very rapidly. Beginner programs are tailored to take advantage of that. The ones below are all slightly different, but they'll all get you strong. Pick one, read it, understand how it works, then run it 'til it stops working for you. This usually takes between 3-9 months.
 
 - __[Starting Strength](http://www.amazon.com/Starting-Strength-Basic-Barbell-Training/dp/0982522738)__ by Mark Rippetoe — The classic linear progression barbell program. Worth buying the book for the detailed exercise form descriptions, even if you wind up running a different program.
 
@@ -35,21 +37,21 @@ When you're new to strength training, you can progress in strength very rapidly.
 
 After you've exhausted the strength gains a beginner's program can provide, you'll want to switch to something that progresses slower. Here are a few that have worked well for me:
 
-- __[The GZCL Method](http://swoleateveryheight.blogspot.com/2014/07/the-gzcl-method-simplified_13.html)__ — I've been running programming structured using this method since January this year and I'm really enjoying it. This is a "method" rather than a "program": for each lift you want to improve, it gives you guidelines for how many total reps at different intensities you should accumulate over the course of a week. Want to spread your squat work out over three days? Just get the reps in. Want just squat one day a week? Just get the reps in. This makes it super adaptable for whatever life throws at you, and lets you keep your daily schedule a bit more varied from training block to training block (if you want) without program hopping entirely.
+- __[The GZCL Method](http://swoleateveryheight.blogspot.com/2014/07/the-gzcl-method-simplified_13.html)__ — This is a powerlifting-focused "method" rather than a "program": for each lift you want to improve, it gives you guidelines for how many total reps at different intensities you should accumulate over the course of a week. Want to spread your squat work out over three days? Just get the reps in. Want just squat one day a week? Just get the reps in. This makes it super adaptable for whatever life throws at you, and lets you keep your daily schedule a bit more varied from training block to training block (if you want) without program hopping entirely.
 
   For a starting point, [Applications and Adapations](http://swoleateveryheight.blogspot.com/2016/02/gzcl-applications-adaptations.html) has some example GZCL programs written up, along with a longer treatise on different ways to structure and progress work in the various tiers. Fair warning: it's a higher volume method than most of the LPs above, so you'll probably want to take some time ramping up the amount of work you're doing rather than jumping in with both feet.
 
-- __[Average to Savage](http://strengtheory.com/store/)__ — Bundled in the Training Toolkit from Greg Nuckols is a really solid general strength and hypertrophy program. This would be first recommendation if you're fresh off a beginner program and trying to figure out what's next; it'll really help you develop the work capacity you need to make progress as an intermediate. It's a 4-day-a-week program that runs in 4 week blocks for 16 total weeks, starting with lighter, very high-rep sets and titrating down to heavier, low-rep sets by the end.
+- __[Average to Savage](http://www.strongerbyscience.com/store/)__ — My take on what a good intermediate [park bench](https://www.bikejames.com/strength/park-bench-vs-bus-bench-workouts-which-is-best-for-you/) program can look like. Bundled in the Training Toolkit from Greg Nuckols, this is a really solid general strength and hypertrophy program. This would be first recommendation if you're fresh off a beginner program and trying to figure out what's next; it'll really help you develop the work capacity you need to make progress as an intermediate. It's a 4-day-a-week program that runs in 4 week blocks for 16 total weeks, starting with lighter, very high-rep sets and titrating down to heavier, low-rep sets by the end.
 
   Also useful: the bundle comes with a guide to sticking points in the big lifts; as in, if you get stuck at this certain point in your squat, these are the muscles that likely the issue and how to bring them up to speed.
 
-- __[Greg Nuckols Specialty Programs](http://strengtheory.com/train-smarter/)__ — Yup, another Greg Nuckols joint. Instead of a single program, these are a collection of specialty programs that for building an individual lift (squat, bench, deadlift) that you can combine depending on your goals. Greg has recommendations on effective ways to combine them, but it's pretty flexible. Well thought out, good stuff.
+- __[Greg Nuckols Specialty Programs](http://www.strongerbyscience.com/train-smarter/)__ — Yup, another Greg Nuckols joint. Instead of a single program, these are a collection of specialty programs that for building an individual lift (squat, bench, deadlift) that you can combine depending on your goals. Greg has recommendations on effective ways to combine them, but it's pretty flexible. Well thought out, good stuff.
 
 - __[5/3/1](https://www.amazon.com/Simplest-Effective-Training-System-Strength-ebook/dp/B00B1HOZ6G)__ — I feel like I have to mention this program here for the sake of completeness as it's sort of all over every training discussion on the internet. I ran the basic version of 5/3/1 when I finished my linear progression, and I think that was a mistake. It was lower frequency and volume than my beginner's program and didn't help me develop much work capacity. I think it could be workable with the addition of Joker Sets and First Set Last from the followup [Beyond 5/3/1](https://www.amazon.com/Beyond-Simple-Training-Extraordinary-Results-ebook/dp/B00DT5FIYQ) for some extra autoregulated volume and intensity, but I'll probably not use this program again unless I need to dial things way down for a weight cut or some kind of unexpected stressful life situation.
 
 ## <a name="conditioning"></a>[Cardiovascular Conditioning](#conditioning)
 
-Yes, [you should do cardio](http://strengtheory.com/avoiding-cardio-could-be-holding-you-back/) even if your goal is just getting stronger.
+Yes, [you should do cardio](http://www.strongerbyscience.com/avoiding-cardio-could-be-holding-you-back/) even if your goal is just getting stronger.
 
 - __[Tactical Barbell](https://www.amazon.com/Tactical-Barbell-II-Conditioning-Black-ebook/dp/B0143HDCWS)__ — Second in a series about fitness for police/military/fighters, focusing on how to combine cardiovascular fitness with strength training. Very well thought out, sustainable programming and a good guide (along with the [first volume](https://www.amazon.com/Tactical-Barbell-Definitive-Strength-Operational-ebook/dp/B00VB143ZA)) on how to productively integrate cardio workout with strength training.
 
@@ -91,16 +93,24 @@ Getting my diet on point and actually being accountable for what I'm eating has 
 ## <a name="#form-guides"></a>[Specific Exercises: Form Guides, Cues, and Tips](#form-guides)
 
 ### Squat
-- __[Strengtheory: How To Squat](http://strengtheory.com/how-to-squat/)__ Greg Nuckols novel-length guide on the squat. If you have a question about squatting, it's probably answered here.
+- __[Stronger By Science: How To Squat](http://www.strongerbyscience.com/how-to-squat/)__ Greg Nuckols' novel-length guide on the squat. If you have a question about squatting, it's probably answered here.
 
 - __[How to Squat, With Chris Duffin](https://www.youtube.com/watch?v=U5zrloYWwxw)__ The tips from this video on how to brace and set up correctly really helped me. The trunk bracing cues are applicable to the deadlift as well.
 
 - __[How to Squat Max Aita Style](https://www.youtube.com/watch?v=DrwiddA_8CQ)__ Some cues about how to stay upright in a squat that really clicked for me.
 
+- __[Hip Structure and the Squat](https://www.youtube.com/watch?v=Fob2wWEC72s)__ Everyone has to squat a little differently due to the structure of their hips. If you're struggling to figure out a squat stance that works for you, check out some of these assessments.
+
 ### Bench
+- __[Stronger By Science: How To Bench](http://www.strongerbyscience.com/how-to-bench/)__ Another Greg Nuckols tome, this time on the bench. As complete a guide as you'll find.
+
 - __[How to Bench Press, with Eric Spoto](https://www.youtube.com/watch?v=hZPYTIPb2To)__ This video helped me out tremendously with my bench setup.
 
+- __[Brian Alsruhe: Identifying and Fixing Weak Points in the Bench](https://www.youtube.com/watch?v=iuGsGdwb5TM)__ Good rundown of what various sticking points in the bench mean, and how to fix them.
+
 ### Deadlift
+- __[Stronger By Science: How To Deadlift](http://www.strongerbyscience.com/how-to-deadlift/)__ Seeing a theme here? Yet again Greg Nuckols pens the most complete guide to a single movement you'll see.
+
 - __[Deadlift Like The Mad Scientist Chris Duffin](https://www.youtube.com/watch?v=oiDczs9j75E)__ Another set of simple form cues from Chris Duffin, this time for the deadlift.
 
 - __[Breathing, Abdominal Bracing & Total Tension](https://www.youtube.com/watch?v=bv6dJK11zNQ)__ Cody Lefever, author of the GZCL Method, talks about breathing, bracing and tension in the deadlift.
@@ -116,3 +126,7 @@ Getting my diet on point and actually being accountable for what I'm eating has 
 
 ### Kettlebell Snatch
 - __[How to avoid banging your wrist in Kettlebell Snatch](https://www.youtube.com/watch?v=bkeWDzUMVZI)__ This Steve Cotter was one of those "oooooh" moments for me—I could never get Pavel's snatch technique to work for me with dropping the bell on my wrist at the top of the movement.
+
+## <a name="changelog"></a>[Changelog](#changelog)
+* __2017-02-05__: Added Greg Nuckols' bench and deadlift guides, added Brian Alsruhe's bench weakpoints guide, added Quinn Henoch's squat stance assessments.
+* __2016-05-28__: Original Post
