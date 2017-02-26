@@ -25,16 +25,24 @@ None of the existing tools quite did this, but I was able to wire up something t
 
 Luckily, it's scriptable. 
 
-## 2. Install sleepwatcher and start Focus on wake
+## 2. Install Hammerspoon and start Focus on wake
 
-[sleepwatcher](http://www.bernhard-baehr.de/) is a daemon for OS X that can run shell commands upon system wake and sleep. I set it up to start Focus upon system wake, so even if I've disabled Focus earlier or closed my laptop in the middle of a break, when I come back, Focus is running.
+[Hammerspoon](http://www.hammerspoon.org/) is an automation tool for OS X that can watch for events and run Lua scripts in response. It's quite powerful and the APIs are pretty extensive. I set it up to start Focus upon system wake, so even if I've disabled Focus earlier or closed my laptop in the middle of a break, when I come back, Focus is running.
 
-{% highlight bash %}
+{% highlight lua %}
 {% raw %}
-brew install sleepwatcher
-brew services start sleepwatcher
-echo "open focus://focus" > ~/.wakeup
-chmod +x ~/.wakeup
+--
+-- ~/.hammerspoon/init.lua
+-- start Focus.app on wake
+--
+local wakeCallback = nil
+function wakeCallback(event)
+  if (event == hs.caffeinate.watcher.systemDidWake) then
+    hs.execute('open focus://focus')
+  end
+end
+wakeWatcher = hs.caffeinate.watcher.new(wakeCallback)
+wakeWatcher:start()
 {% endraw %}
 {% endhighlight %}
 
@@ -79,3 +87,5 @@ end
 The break defaults to 15 minutes, but you can pass a custom number as an argument to the script (so `unfocus 5` gives you a 5 minute break). When run, it'll display a countdown timer of how long your break has remaining, then exit and re-enable Focus. It'll even re-enable Focus if you accidentally kill the script while it's running.
 
 And that's it! I've just gotten this set up today, but I'm pleased with how it's working so far. Time will tell if it's a good long-term solution for me.
+
+_Updated Feb 26th, 2017: A previous solution here used [sleepwatcher](http://www.bernhard-baehr.de/), but it began starting slowly after upgrading to Sierra. I replaced it with with Hammerspoon._
