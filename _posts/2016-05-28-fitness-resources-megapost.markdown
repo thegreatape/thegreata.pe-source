@@ -3,7 +3,7 @@ layout: post
 title: "Fitness Resources Megapost"
 ---
 
-_Last updated Feb 5th, 2017: see **[changelog](#changelog)**_
+_Last updated March 12th, 2017: see **[changelog](#changelog)**_
 
 I'm a huge fitness nerd, and I'll talk your ear off about all aspects of physical training given half a chance. I frequently wind up sending reading recommendations to people who're interested in knowing more after chatting, and figured it was time to put together a big list of the fitness resources I've gotten the most out of.
 
@@ -127,6 +127,10 @@ Getting my diet on point and actually being accountable for what I'm eating has 
 ### Kettlebell Snatch
 - __[How to avoid banging your wrist in Kettlebell Snatch](https://www.youtube.com/watch?v=bkeWDzUMVZI)__ This Steve Cotter was one of those "oooooh" moments for me—I could never get Pavel's snatch technique to work for me with dropping the bell on my wrist at the top of the movement.
 
+### Kettlebell Clean
+- __[Fix Your Kettlebell Clean](https://www.jensinkler.com/fix-your-kettlebell-clean/)__ Another Light Dawns on Marblehead moment for yours truly—I never quite got how to clean without landing the bell heavily on my arm until I tried out Jen's cues.
+
 ## <a name="changelog"></a>[Changelog](#changelog)
+* __2017-03-12__: Added Jen Sinkler's "Fix Your Kettlebell Clean"
 * __2017-02-05__: Added Greg Nuckols' bench and deadlift guides, added Brian Alsruhe's bench weakpoints guide, added Quinn Henoch's squat stance assessments.
 * __2016-05-28__: Original Post
