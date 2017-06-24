@@ -27,27 +27,25 @@ Some books for building a conceptual framework to understand what fitness is all
 
 When you're new to strength training, you can progress in strength very rapidly. Beginner programs are tailored to take advantage of that. The ones below are all slightly different, but they'll all get you strong. Pick one, read it, understand how it works, then run it 'til it stops working for you. This usually takes between 3-9 months.
 
-- __[Starting Strength](http://www.amazon.com/Starting-Strength-Basic-Barbell-Training/dp/0982522738)__ by Mark Rippetoe — The classic linear progression barbell program. Worth buying the book for the detailed exercise form descriptions, even if you wind up running a different program.
+- __[The Greyskull LP](http://www.amazon.com/Greyskull-LP-Second-John-Sheaffer/dp/0615635571)__ by John Sheaffer — This is the program I ran when I started training with barbells. It's a three-day-a-week, reasonably customizable program that's a touch more hypertrophy oriented than a many of the commonly recommended beginner programs. [Phrack's variant](https://www.reddit.com/r/Fitness/wiki/phraks-gslp) is a good base for those unsure of how to customize the program.
 
-- __[The Greyskull LP](http://www.amazon.com/Greyskull-LP-Second-John-Sheaffer/dp/0615635571)__ by John Sheaffer — This is the program I ran when I started training with barbells. It's more customizable than Starting Strength, progresses a bit slower, and is a touch more hypertrophy oriented. [Phrack's variant]() is a good base for those unsure of how to customize the program.
-
-- __[GZCLP](http://swoleateveryheight.blogspot.com/2016/02/gzcl-applications-adaptations.html)__ by Cody Lefever — Buried in Cody's novel-length article on applications and adaptations of his GZCL method for intermediate/advanced lifters is a version designed for new lifters: the GZCLP program (Cmd+F for "GZCLP" on that page). I really like how it's set up and it has some features that in retrospect I could have benefitted from during my beginner days. Namely, it has progression across multiple rep ranges, a ton of extra back work, and actual structure around adding/progressing accessory work. The only downside here I can see is that Cody's writeup is fairly technical and might be daunting for totally new lifters. You'll want to read and understand the Tier 1/2/3 system from Cody's original [GZCL method](http://swoleateveryheight.blogspot.com/2014/07/the-gzcl-method-simplified_13.html) first; then hopefully the GZCLP adaptation for newer lifters will make sense.
+- __[GZCLP](https://www.reddit.com/r/Fitness/comments/44hnbc/strength_training_using_the_gzcl_method_from/)__ by Cody Lefever — By the same author of the GZCL Method mentioned below, GZCLP is a version of his training methodology designed for new lifters. I really like how it's set up and it has some features that in retrospect I could have benefitted from during my beginner days. Namely, it has progression across multiple rep ranges, a ton of extra back work, and actual structure around adding/progressing accessory work. The only downside here I can see is that Cody's writeup is fairly technical and might be daunting for totally new lifters. You'll want to read and understand the Tier 1/2/3 system from Cody's original [GZCL method](http://swoleateveryheight.blogspot.com/2014/07/the-gzcl-method-simplified_13.html) first; then hopefully the GZCLP adaptation for newer lifters will make sense.
 
 ### <a name="intermediate-advanced-barbell-programs"></a>[Intermediate / Advanced Barbell Programs](#intermediate-advanced-barbell-programs)
 
-After you've exhausted the strength gains a beginner's program can provide, you'll want to switch to something that progresses slower. Here are a few that have worked well for me:
+After you've exhausted the strength gains a beginner's program can provide, you'll want to switch to something that progresses slower. Here are some I like:
 
 - __[The GZCL Method](http://swoleateveryheight.blogspot.com/2014/07/the-gzcl-method-simplified_13.html)__ — This is a powerlifting-focused "method" rather than a "program": for each lift you want to improve, it gives you guidelines for how many total reps at different intensities you should accumulate over the course of a week. Want to spread your squat work out over three days? Just get the reps in. Want just squat one day a week? Just get the reps in. This makes it super adaptable for whatever life throws at you, and lets you keep your daily schedule a bit more varied from training block to training block (if you want) without program hopping entirely.
 
   For a starting point, [Applications and Adapations](http://swoleateveryheight.blogspot.com/2016/02/gzcl-applications-adaptations.html) has some example GZCL programs written up, along with a longer treatise on different ways to structure and progress work in the various tiers. Fair warning: it's a higher volume method than most of the LPs above, so you'll probably want to take some time ramping up the amount of work you're doing rather than jumping in with both feet.
 
-- __[Average to Savage](http://www.strongerbyscience.com/store/)__ — My take on what a good intermediate [park bench](https://www.bikejames.com/strength/park-bench-vs-bus-bench-workouts-which-is-best-for-you/) program can look like. Bundled in the Training Toolkit from Greg Nuckols, this is a really solid general strength and hypertrophy program. This would be first recommendation if you're fresh off a beginner program and trying to figure out what's next; it'll really help you develop the work capacity you need to make progress as an intermediate. It's a 4-day-a-week program that runs in 4 week blocks for 16 total weeks, starting with lighter, very high-rep sets and titrating down to heavier, low-rep sets by the end.
+- __[Average to Savage](http://www.strongerbyscience.com/store/)__ — My take on what a good intermediate [park bench](https://www.bikejames.com/strength/park-bench-vs-bus-bench-workouts-which-is-best-for-you/) program can look like. Bundled in the Training Toolkit from Greg Nuckols, this is a really solid general strength and hypertrophy program. This would be first recommendation if you're fresh off a beginner program and trying to figure out what's next; it'll really help you develop the work capacity you need to make progress as an intermediate. It's a 4-day-a-week program that runs in 4 week blocks for 16 total weeks, starting with lighter, very high-rep sets and titrating down to heavier, low-rep sets by the end. I've found myself returning to this program over and over after experimenting with other approaches.
 
   Also useful: the bundle comes with a guide to sticking points in the big lifts; as in, if you get stuck at this certain point in your squat, these are the muscles that likely the issue and how to bring them up to speed.
 
 - __[Greg Nuckols Specialty Programs](http://www.strongerbyscience.com/train-smarter/)__ — Yup, another Greg Nuckols joint. Instead of a single program, these are a collection of specialty programs that for building an individual lift (squat, bench, deadlift) that you can combine depending on your goals. Greg has recommendations on effective ways to combine them, but it's pretty flexible. Well thought out, good stuff.
 
-- __[5/3/1](https://www.amazon.com/Simplest-Effective-Training-System-Strength-ebook/dp/B00B1HOZ6G)__ — I feel like I have to mention this program here for the sake of completeness as it's sort of all over every training discussion on the internet. I ran the basic version of 5/3/1 when I finished my linear progression, and I think that was a mistake. It was lower frequency and volume than my beginner's program and didn't help me develop much work capacity. I think it could be workable with the addition of Joker Sets and First Set Last from the followup [Beyond 5/3/1](https://www.amazon.com/Beyond-Simple-Training-Extraordinary-Results-ebook/dp/B00DT5FIYQ) for some extra autoregulated volume and intensity, but I'll probably not use this program again unless I need to dial things way down for a weight cut or some kind of unexpected stressful life situation.
+- __[5/3/1](https://www.amazon.com/Simplest-Effective-Training-System-Strength-ebook/dp/B00B1HOZ6G)__ — I feel like I have to mention this program here for the sake of completeness as it's sort of all over every training discussion on the internet. I ran the basic version of 5/3/1 when I finished my linear progression, and I think that was a mistake. It was lower frequency and volume than my beginner's program and didn't help me develop much work capacity. I think it could be workable with the addition of a bunch of different modifications from the followup [Beyond 5/3/1](https://www.amazon.com/Beyond-Simple-Training-Extraordinary-Results-ebook/dp/B00DT5FIYQ) for extra volume and intensity, but you need to have a little experience under your belt to pick the right modifications (I certainly did not when I tried running it). I'll probably not use this program again unless I need to dial things way down for a weight cut or some kind of unexpected stressful life situation.
 
 ## <a name="conditioning"></a>[Cardiovascular Conditioning](#conditioning)
 
@@ -84,7 +82,7 @@ Getting my diet on point and actually being accountable for what I'm eating has 
 
 - __[Andy Morgan's Diet Guide](http://rippedbody.jp/complete-diet-nutrition-set-up-guide/)__ — An amazingly thorough, evidence-backed guide to setting up, tracking and adjusting your nutrition depending on your goals. Andy Morgan has put an absolute practical ton of information out on his site for free. Start here.
 
-- __[The Renessiance Diet](https://renaissanceperiodization.com/shop/the-renaissance-diet/)__ — Very much a scientific do-this, eat-that guide to diet, focusing on maximum athletic performance. 
+- __[The Renessiance Diet](https://renaissanceperiodization.com/shop/the-renaissance-diet/)__ — Very much a scientific do-this, eat-that guide to diet, focusing on maximum athletic performance.
 
 - __[Fat Loss Starts On Monday](https://www.amazon.com/Fat-Loss-Happens-Monday-Habit-Based-ebook/dp/B00PKPTRWM)__ — A Dan John collaboration with Josh Hillis; where the above two resources focus mainly on what do to, this book has a lot of useful ideas on the psychological side. Good stuff on building the kind of habits to you need to adhere to a good nutrition plan and still have a loving, healthy relationship with food.
 
@@ -116,7 +114,7 @@ Getting my diet on point and actually being accountable for what I'm eating has 
 - __[Breathing, Abdominal Bracing & Total Tension](https://www.youtube.com/watch?v=bv6dJK11zNQ)__ Cody Lefever, author of the GZCL Method, talks about breathing, bracing and tension in the deadlift.
 
 ### Overhead Press
-- __[Justin Lascek: 3 Press Fixes](https://youtube.com/watch?v=sqKhLR1zRaU)__ I still credit this video for giving me the tools to make my overpress press into my best proportional lift. 
+- __[Justin Lascek: 3 Press Fixes](https://youtube.com/watch?v=sqKhLR1zRaU)__ I still credit this video for giving me the tools to make my overpress press into my best proportional lift.
 
 ### Pullups
 - __[Make Pullups 10x Easier and More Effective](https://youtube.com/watch?v=kHSJwnBPj-Y)__ Max Shank talks about scapular retration and shoulder position in the chinup. I've seen this help people who couldn't do a single pullup to being able to do one, just by fixing their starting position.
@@ -131,6 +129,23 @@ Getting my diet on point and actually being accountable for what I'm eating has 
 - __[Fix Your Kettlebell Clean](https://www.jensinkler.com/fix-your-kettlebell-clean/)__ Another Light Dawns on Marblehead moment for yours truly—I never quite got how to clean without landing the bell heavily on my arm until I tried out Jen's cues.
 
 ## <a name="changelog"></a>[Changelog](#changelog)
-* __2017-03-12__: Added Jen Sinkler's "Fix Your Kettlebell Clean"
-* __2017-02-05__: Added Greg Nuckols' bench and deadlift guides, added Brian Alsruhe's bench weakpoints guide, added Quinn Henoch's squat stance assessments.
-* __2016-05-28__: Original Post
+__2017-06-24__:
+
+* Fixed link to Phrack's Greyskull variant
+* Used better link to Cody's GZCLP reddit post
+* Removed Starting Strength
+* Clarified thoughts on 5/3/1 and Greyskull
+
+__2017-03-12__:
+
+* Added Jen Sinkler's "Fix Your Kettlebell Clean"
+
+__2017-02-05__:
+
+* Added Greg Nuckols' bench and deadlift guides
+* Added Brian Alsruhe's bench weakpoints guide
+* Added Quinn Henoch's squat stance assessments.
+
+__2016-05-28__:
+
+* Original Post
