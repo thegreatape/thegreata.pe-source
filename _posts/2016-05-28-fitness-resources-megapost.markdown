@@ -3,7 +3,7 @@ layout: post
 title: "Fitness Resources Megapost"
 ---
 
-_Last updated March 12th, 2017: see **[changelog](#changelog)**_
+_Last updated June 24th, 2017: see **[changelog](#changelog)**_
 
 I'm a huge fitness nerd, and I'll talk your ear off about all aspects of physical training given half a chance. I frequently wind up sending reading recommendations to people who're interested in knowing more after chatting, and figured it was time to put together a big list of the fitness resources I've gotten the most out of.
 
