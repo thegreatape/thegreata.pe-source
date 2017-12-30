@@ -1,0 +1,66 @@
+---
+layout: post
+title: 2017 Year End Notes
+---
+
+Another year, another time for personal reflection and course adjustments.
+
+## Reading
+I noted last year that I’d read mostly books by men (women made up only 23% of my 2016 reading list), and wanted to change that. This year, I did! 23 of the 48 books I read were by women.
+
+Rough breakdown by genre: 
+
+* Fantasy: 23 books
+* Other Non-Fiction: 12 books
+* Science Fiction: 7 books
+* Technical	 / Career: 3 books
+* Fitness: 3 books
+
+Notable books from 2017:
+
+* [Mistakes Were Made (But Not by Me)](https://www.amazon.com/Mistakes-Were-Made-But-Not-ebook/dp/B003K15IOE/): A book about self-justification, cognitive dissonance, and how memory works. This had more impact on how I think about human behavior than anything else I’ve read in the last few years. 
+
+* [Weapons of Math Destruction](https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality-ebook/dp/B019B6VCLO): A good, nuanced critique of how big data techniques can contribute to social ills. Far from a “big data BAD!” screed, the author lays out a thoughtful set of criteria that we can use to evaluate the impact of individual algorithms and approaches.
+
+* [The Manager’s Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth-ebook/dp/B06XP3GJ7F/): An excellent book on tech leadership, and one that I hope individual contributors will read at least the first few chapters of as well. 
+
+* [Infomocracy](https://www.amazon.com/Infomocracy-Book-One-Centenal-Cycle-ebook/dp/B0151U75ME/): If William Gibson wrote near-future fiction about governments and elections, it might look something like this. 
+
+* [The Wheel of Time](https://www.amazon.com/Wheel-Time-14-Book/dp/B00VZIF6VO) and [The Dresden Files](https://www.amazon.com/Dresden-Files-15-books/dp/B00O3HD47C/): While I’m not normally a big re-reader, this year was a year for revisiting some old favorites. 
+
+I’m generally happy with where my reading habits are right now, but I think next year it might be a good idea to start paying more attention to how many books I’m reading by people of color and publicly LGBTQ+ authors.
+
+## Fitness
+Spending the last year focusing on getting healthy and hypertrophy paid off. I didn’t get hurt again, and definitely got bigger: went from 182lbs to 202lbs from March to December, with relatively mild fat gains. I’ll be cutting that down starting post-vacation in January, aiming to get down to 190lbs or so before I start another muscle gain phase. 
+
+I only did 1RM testing once this year (in mid-July, I think) but I got back to my pre-injury strength levels, with a small deadlift PR. Not bad, considering strength was a secondary focus.
+
+Good things from 2017 I want to continue doing:
+
+* *Safety Squat Bar*: I got a [safety squat bar](https://www.roguefitness.com/sb-1-rogue-safety-squat-bar) for the home gym when both my wife and I had upper body injuries, and I wound up squatting with it exclusively for about six months. Even though I’m back to regular back squats as a main lift, I’ll still be using the SSB for accessory and supplemental lifts for the foreseeable future. Great purchase.
+
+* *Meal prep + calorie macro tracking*: A flexible diet framework that still seems to work super well for me on both the physical results and mental health fronts.
+
+* *Giant sets (for accessory work)*: Giant sets are stringing together 3 or more lifts in sequence, without a pause. They’re A+ for time and mild conditioning. I tried to doing them for a while with my main lifts, and got a few minor tweaks that I think were warning shots. I’ll keep doing giant sets but just for isolation-y accessories and not with the main lifts of the day.
+
+* *Biking and walking for LISS*: I feel like I have to re-learn this one every year: HIIT is fun and time-efficient, but the recovery tax is too high for what they get me. I /mostly/ stuck to biking and hiking for cardio this year, and it improved my work capacity and got me outside, without beating me all to hell.
+
+I have one simple goal for next year: commit to running [Average to Savage](https://www.strongerbyscience.com/training-toolkit/) for the whole year. I program-hopped for the last half of the year too much, and it impacted my strength progress. I know AtS works for my goals, and I should stick to just periodically adjusting accessory work if I need variation.
+
+## Time and Attention
+Even considering the psychological and emotional weight of the country turning into a flaming dumpster full of garbage fires, I’m still unhappy with the job I did spending my time and attention deliberately in 2017. 
+
+That’s reflected in this being the only post I’ve written in this whole year, the lowest number since I started it in 2011.
+
+Last year, I said:
+
+> So 2017 will probably see less learning of new tools and more general studying of topics I lack depth in. I’m planning to start with working through The Elements of Computing Systems and we’ll see how it goes from there.
+
+I did approximately jack shit towards that goal, or really anything related to it. I struggled to even read books about things I wanted to learn, about computers or *anything*, much less actually building anything. I’ve been underestimating how much of a rut I’ve fallen into here, and I’m really not ok with it. Something’s got to give.
+
+I’ve tried a lot of things to change my habits here and almost all of it has failed. In the past, I’ve focused on trying to suppress distractions, doing stuff like setting up [automated content-blocking](http://thegreata.pe/defusing-distracting-defaults). I think perhaps I haven’t given enough attention to the flip side: filling up that distraction free time with challenging things I want to do. I’m trying some techniques that I’m hopeful will help (chiefly, [variations on time blocking](http://calnewport.com/blog/2013/12/21/deep-habits-the-importance-of-planning-every-minute-of-your-work-day/)), but I feel like I need a more concrete goal that’ll give me a hard push in the right direction.
+
+So: *in 2018, I’m going to try averaging one post a week here about something I’m learning, practicing or building*. These can be about any subject, and any length. I’m expecting this to be tough. I think trying for a rough weekly cadence is a good start, though I expect there will be some variation. I’m also giving myself a pass for any week where I’m on vacation, which might be a good incentive to take more of it!
+
+## Onwards
+Ok, 2018. Let’s do this.
