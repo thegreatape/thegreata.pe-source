@@ -3,6 +3,7 @@ tagline:
 description:      Duct Tape and Turing Machines
 #Comment out url when working locally to resolve base urls correctly
 url:              http://thegreata.pe
+logo: "birds.jpg"
 
 # Owner/author information
 owner:
