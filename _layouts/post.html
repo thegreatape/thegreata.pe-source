@@ -11,7 +11,6 @@
 
 {% include browser-upgrade.html %}
 
-{% include navigation.html %}
 
 {% if page.image.feature %}<div class="image-wrap">
   <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
@@ -19,6 +18,7 @@
 </div><!-- /.image-wrap -->{% endif %}
 
 <div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+{% include navigation.html %}
   <div class="article-author-top">
     {% include author-bio.html %}
   </div>
@@ -36,6 +36,7 @@
       </footer>
     </div><!-- /.article-wrap -->
   </article>
+  <div class="push"></div>
 </div><!-- /#main -->
 
 <div class="footer-wrap">
