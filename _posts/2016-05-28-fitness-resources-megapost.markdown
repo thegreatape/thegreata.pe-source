@@ -3,7 +3,7 @@ layout: post
 title: "Fitness Resources Megapost"
 ---
 
-_Last updated June 24th, 2017: see **[changelog](#changelog)**_
+_Last updated March 3rd, 2018: see **[changelog](#changelog)**_
 
 I'm a huge fitness nerd, and I'll talk your ear off about all aspects of physical training given half a chance. I frequently wind up sending reading recommendations to people who're interested in knowing more after chatting, and figured it was time to put together a big list of the fitness resources I've gotten the most out of.
 
@@ -88,6 +88,16 @@ Getting my diet on point and actually being accountable for what I'm eating has 
 
 - __[Well Fed](https://www.amazon.com/Well-Fed-Paleo-Recipes-People-ebook/dp/B0083LX1EU/)__ and __[Well Fed 2](https://www.amazon.com/Well-Fed-Paleo-Recipes-People-ebook/dp/B00HG3XCBS/)__ — A pair of cookbooks that have been instrumental in how my household cooks these days. You can ignore the Paleo ideology stuff (personally, I empirically don't react to wheat or dairy one way or another), but pay attention to the Weekly Cookup. Doing the bulk of my cooking in advance has been a HUGE part of turning my nutrition around, and Melissa Joulwan has great ideas around how to do that and keep things fresh and interesting at the same time.
 
+## <a name="#podcasts"></a>[Podcasts](#podcasts)
+
+Fitness podcasts I've found worth listening to:
+
+- [Revive Stronger](http://revivestronger.com/podcast/) Powerlifting and bodybuilding podcast that does a lot of good interviews with coaches and sports scientists. The Q&A sessions with regular guests (Mike Israetel in particular) are great.
+
+- [3D Muscle Journey](http://3dmusclejourney.com/podcast/) Weekly roundtables from the coaches at 3DMJ, mostly bodybuilding focused.
+
+- [The Jugg Life](https://thejugglife.com/) Powerlifting and Olympic weightlifting, more focused on the competitive side of the sports.
+
 ## <a name="#form-guides"></a>[Specific Exercises: Form Guides, Cues, and Tips](#form-guides)
 
 ### Squat
@@ -129,6 +139,9 @@ Getting my diet on point and actually being accountable for what I'm eating has 
 - __[Fix Your Kettlebell Clean](https://www.jensinkler.com/fix-your-kettlebell-clean/)__ Another Light Dawns on Marblehead moment for yours truly—I never quite got how to clean without landing the bell heavily on my arm until I tried out Jen's cues.
 
 ## <a name="changelog"></a>[Changelog](#changelog)
+__2018-03-03__:
+* Added Podcast section
+
 __2017-06-24__:
 
 * Fixed link to Phrack's Greyskull variant
