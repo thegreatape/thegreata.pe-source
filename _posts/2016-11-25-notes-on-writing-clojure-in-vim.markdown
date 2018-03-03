@@ -105,3 +105,7 @@ autocmd BufLeave *.cljs,*.clj,*.cljs.hl  call SetBasicStatusLine()
 {% endhighlight %}
 
 And lastly, I did a little customization of the status line to show whether or not Fireplace was connected to a running Clojure repl. All of the tools above will work without being connected to existing repl process—but because of the JVM's startup time, running one of their commands cold will freeze Vim while a new process is spun up to eval the code to do whatever you just asked. Running the same command with a warm repl connected is basically instant. I added some functions add either `nREPL Connected` or `No nREPL Connection` to the status line so that I remember to start a new repl before I hit K to look up some docs... and grind my teeth while Vim freezes for 10 seconds.
+
+## REPL integration
+
+While vim doesn't have a true integrated REPL-as-subprocess like Emacs's CIDER does, you can get a pretty nice setup within tmux by binding some keys to send s-expressions to a repl running an adjacent pane. I [wrote up my notes on that strategy here](/clojure-vim-and-tmux-using-your-editor-as-a-repl-scratchpad/).
