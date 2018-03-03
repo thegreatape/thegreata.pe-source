@@ -53,6 +53,11 @@
 		max-width: 125px;
 		margin: auto;
 	}
+  .bio-content {
+    margin: 0px;
+    float: none;
+    max-width: 100%;
+  }
 	h3 {
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -63,9 +68,19 @@
 	.author-social {
 		margin-bottom: 5px;
 	}
+  .author-social::after {
+    content: "";
+    padding: 0px;
+  }
+  .social-icons {
+    max-width: 115px;
+  }
 }
 .article-author-bottom {
 	display: none;
+}
+body.article .article-author-top {
+  display: block;
 }
 .toc {
 	display: block;
