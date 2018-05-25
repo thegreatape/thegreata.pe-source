@@ -3,7 +3,7 @@ layout: post
 title: "Interlude - Furball"
 ---
 
-First, I’d like to introduce Ripley, one of the reasons my attention is a little scare at the moment:
+First, I’d like to introduce Ripley, one of the reasons my attention is a little scarce at the moment:
 
 ![Ripley](/images/ripley.png)
 
