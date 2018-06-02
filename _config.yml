@@ -31,10 +31,16 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Home
+  - title: Articles
     url: /
-  - title: Open Source
-    url: /open-source
+  - title: Logbook
+    url: /logbook
+  - title: Code
+    url: /code
+
+collections:
+  logbooks:
+    output: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
@@ -47,6 +53,12 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       category: "articles"
+  - scope:
+      path: ""
+      type: logbook
+    values:
+      layout: post
+      category: logbook
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: pretty
@@ -61,5 +73,8 @@ syntax_highlighter_opts:
 plugins:
   - jekyll-redirect-from
 
-include: [".htaccess"]
+pagination:
+ enabled: true
+
+include: [".htaccess", "logbook"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

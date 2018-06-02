@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Interlude - Furball
+category: logbook
 redirect_from:
 - "/interlude-furball"
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'The Elements Of Computing Systems: Teaching First-Grade Math To Virtual Sand'
+category: logbook
 redirect_from:
 - "/teaching-sand-math"
 ---

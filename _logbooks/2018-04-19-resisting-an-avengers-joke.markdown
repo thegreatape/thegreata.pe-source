@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'The Elements Of Computing Systems: Resisting An Avengers Joke'
+category: logbook
 redirect_from:
 - "/resisting-an-avengers-joke"
 ---

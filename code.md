@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /open-source/index.html
-title: Projects
+permalink: /code/index.html
+title: Code
 ---
 
 * [literate minuteman](http://www.literate-minuteman.com) ([github](http://github.com/thegreatape/literate-minuteman)) : Site to check what books are available at your local Boston library from your Goodreads to-read list.
