@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Make your Rails background jobs as small as possible
+redirect_from:
+- "/small-background-jobs"
 ---
 
 I recently ran into an issue with [Literate Minuteman](http://www.literate-minuteman.com/) that reminded me of the value of keeping your Rails background jobs as small as you can.

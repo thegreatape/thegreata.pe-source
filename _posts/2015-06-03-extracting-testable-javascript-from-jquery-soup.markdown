@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Extracting Testable Javascript From jQuery Soup"
+title: Extracting Testable Javascript From jQuery Soup
+redirect_from:
+- "/extracting-testable-javascript-from-jquery-soup"
 ---
 
 I'm not sure where the phrase "jQuery Soup" originated, but it's an apt description of a failure mode that Javascript code can fall into as it grows. It's characterized by code that has little structure and no separation of concerns, mixing together HTTP calls, DOM manipulation, user event handling and business logic into a big pile of callbacks.

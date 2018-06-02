@@ -1,7 +1,10 @@
 ---
 layout: post
-title: "How Slack Could Respect Your Time And Attention (Better)"
+title: How Slack Could Respect Your Time And Attention (Better)
+redirect_from:
+- "/how-slack-could-respect-your-time-and-attention-better"
 ---
+
 Slack, like any communication tool, can function anywhere on a spectrum from "effective medium" to "weapon of mass distraction". Where your team's experience falls depends mostly on how deliberately you set up your expectations of each other. But no tool is truly neutral and I think there are changes that Slack could make to help prevent chat fatigue and encourage longer periods of attention and focus. 
 
 - The default notification settings are invasive. If I told you to install software that let anyone in your company flash a notice onto your screen, sliding it over whatever you're working on at any time—well, you'd probably think I was loony. But that's exactly what Slack's default notification settings do, plus playing a little noise in case you managed to keep your attention off the thing flickering at the edge of your vision. Organizations default to the path of least resistance, so software defaults are incredibly powerful. Let users opt into more interrupt-y preferencs if they want.

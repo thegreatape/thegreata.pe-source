@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Backbone Views and the Law of Demeter"
+title: Backbone Views and the Law of Demeter
 date: 2012-04-28 19:25
 comments: true
 categories: 
+redirect_from:
+- "/backbone-views-and-the-law-of-demeter"
 ---
 
 I've been getting more and more excited about [Backbone.js](http://documentcloud.github.com/backbone/) over the last few months. One of the greatest things about the framework is that it's so unopinionated and modular that you can do anything between writing your whole app using Backbone idioms or applying just one or two pieces to an existing app. I'm particularly interested in how Backbone Views encourage cleaner separation between Javascript components on a page, without even using any other Backbone components. Let's explore this a bit.

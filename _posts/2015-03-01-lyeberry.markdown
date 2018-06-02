@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Lyeberry: a new search backend for Literate Minuteman"
+title: 'Lyeberry: a new search backend for Literate Minuteman'
+redirect_from:
+- "/lyeberry"
 ---
 
 Over the last week, I rolled out some big improvements to the way [Literate Minuteman](http://www.literate-minuteman.com/) searches for books behind the scenes. I want to share some of the ideas behind the new architecture and some thoughts on my first experience with building a web app in Clojure.

@@ -3,6 +3,8 @@ layout: post
 title: Interlude - Vacation
 image:
   thumb: hawaii/beach-sunset.jpg
+redirect_from:
+- "/interlude-vacation"
 ---
 
 Though I'm generally terrible at taking regular vacations, last week my wife and I got away to Hawaii for some long overdue R&R. We saw whales at sunset, stood 10 feet away from active lava flows, hiked an extinct volcano caldera, relaxed on the beach, and drank a whole bunch of rum drinks.

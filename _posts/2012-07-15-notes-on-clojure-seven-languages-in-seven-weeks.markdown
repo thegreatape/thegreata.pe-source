@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Notes on Clojure: Seven Languages In Seven Weeks"
+title: 'Notes on Clojure: Seven Languages In Seven Weeks'
 date: 2012-07-15 20:44
 comments: true
 categories: 
+redirect_from:
+- "/notes-on-clojure-seven-languages-in-seven-weeks"
 ---
 
 I've been looking forward to digging into Clojure ever since I saw Rich Hickey's [keynote at RailsConf2012](http://www.confreaks.com/videos/860-railsconf2012-keynote-simplicity-matters). I'm still chewing on some of the philosophy Rich introduces in that talk, and wanting to seeing his approach to language design was a big part of why I picked up *Seven Languages In Seven Weeks* in the first place. Plus, I haven't had the chance to mess around with a Lisp since that semester in college of finding myself in the empty list...

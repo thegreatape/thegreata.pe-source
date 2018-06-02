@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 2016 Year End Notes
+redirect_from:
+- "/2016-year-end-notes"
 ---
 
 I almost didn't write this. After this year's US election and the steady global rise of nationalism, well, my usual inward-looking year end review feels a bit trite. But this is the stuff that helps keep me functional and able to take any action at all, so. Here we go.

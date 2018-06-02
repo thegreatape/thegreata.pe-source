@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "The Elements Of Computing Systems: Teaching First-Grade Math To Virtual Sand"
+title: 'The Elements Of Computing Systems: Teaching First-Grade Math To Virtual Sand'
+redirect_from:
+- "/teaching-sand-math"
 ---
 
 Continuing my slow plod through TEoCS (also known as [nand2tetris](http://www.nand2tetris.org/)), I’ve now reached the part of building in building a computer where I’ve built something that… computes.

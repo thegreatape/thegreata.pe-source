@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Relaunching Literate Minuteman
+redirect_from:
+- "/relaunching-literate-minuteman"
 ---
 
 Today, I’m relaunching an old project of mine with a new coat of paint and a bunch of new goodies: [Literate Minuteman](http://literate-minuteman.com) shows you what books from your [Goodreads](http://goodreads.com) lists are available at your local Boston-area library.

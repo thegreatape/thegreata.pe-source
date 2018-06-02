@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Print-friendly bookmarklet for programs on TheSquatRack.com"
+title: Print-friendly bookmarklet for programs on TheSquatRack.com
 date: 2013-06-30 00:25
 comments: true
 sharing: true
 footer: true
+redirect_from:
+- "/print-friendly-bookmarklet-for-programs-on-the-squat-rack-com"
 ---
 
 One of my hobbies is repeatedly picking up heavy things and putting them back down.

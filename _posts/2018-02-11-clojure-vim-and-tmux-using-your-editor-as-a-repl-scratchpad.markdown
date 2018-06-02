@@ -1,6 +1,8 @@
 ---
-title: "Clojure, vim, and tmux: using your editor as a repl scratchpad"
+title: 'Clojure, vim, and tmux: using your editor as a repl scratchpad'
 layout: post
+redirect_from:
+- "/clojure-vim-and-tmux-using-your-editor-as-a-repl-scratchpad"
 ---
 
 I use Clojure at work, but the frequency varies—I’ll sometimes go months in between working on a project that uses it. Whenever I come back to using the language after some time away, I try to file a few sharp edges off the tooling I use around it.

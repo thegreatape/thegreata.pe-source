@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Composable Components: Comparing Angular and React"
+title: 'Composable Components: Comparing Angular and React'
+redirect_from:
+- "/reusable-javascript-components"
 ---
 
 Both Angular and React think you should be building client-side apps by baking new behavior into the structure of the DOM. They take very different approaches to this, with what I think are some interesting consequences.

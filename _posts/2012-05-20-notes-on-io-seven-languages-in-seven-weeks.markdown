@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Notes on Io: Seven Languages In Seven Weeks"
+title: 'Notes on Io: Seven Languages In Seven Weeks'
 date: 2012-05-20 05:19
 comments: true
 categories: 
+redirect_from:
+- "/notes-on-io-seven-languages-in-seven-weeks"
 ---
 
 I realized recently that though I'd learned a number of new technologies over the last few years, it had been far too long since I learned a new language. I picked up Bruce Tate's [Seven Languages In Seven Weeks](http://pragprog.com/book/btlang/seven-languages-in-seven-weeks) a month ago to remedy this, and wanted to jot down some notes as I went on my Magical Mystery Tour of programming languages.

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Notes On Writing Clojure In Vim"
+title: Notes On Writing Clojure In Vim
+redirect_from:
+- "/notes-on-writing-clojure-in-vim"
 ---
 
 There a lot of things I like about Clojure as a language, but it requires a lot of tooling setup to not have a bad time. There's a big chunk of the Clojure community that uses Emacs and the admittedly fantastic [CIDER](https://github.com/clojure-emacs/cider) environment, but Vim salwarts who don't want to ditch years of editor customization aren't left out in the cold. It took a little more digging and research, but I managed to put together a Vim/Clojure setup with the fast feedback loop that's so important to productive Clojure dev.

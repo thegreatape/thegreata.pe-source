@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Setting Up Evil-Mode Friendly Ctags in Emacs
+redirect_from:
+- "/setting-up-evil-mode-friendly-ctags-in-emacs"
 ---
 
 Despite my [failed experiment](/emacs-and-evil-mode-field-notes/) with evil-mode back in January, I wound up switching over to evil-powered Emacs full time earlier this summer. I love having modal editing combined with truly deep extensibility, and I've been focusing my tweaking on changes that let Emacs help me explore and understand code faster.

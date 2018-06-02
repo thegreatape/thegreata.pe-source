@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Notes on Scala: Seven Languages In Seven Weeks"
+title: 'Notes on Scala: Seven Languages In Seven Weeks'
 date: 2012-06-16 12:53
 comments: true
 categories: 
+redirect_from:
+- "/notes-on-scala-seven-languages-in-seven-weeks"
 ---
 
 After Prolog's brain-bending, it was a bit of a relief to tackle Scala and return to a more familiar general-purpose language with a C-descended syntax.

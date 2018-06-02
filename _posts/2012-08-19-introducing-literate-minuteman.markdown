@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Introducing Literate Minuteman"
+title: Introducing Literate Minuteman
 date: 2012-08-19 17:37
 comments: true
 categories: 
+redirect_from:
+- "/introducing-literate-minuteman"
 ---
 
 It's a little odd to be writing an introduction to something I've been actively working on and using for the better part of a year. I think I've fallen into the trap of wanting to add just one more thing and polishing that one feature before showing the world what I've made. 

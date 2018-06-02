@@ -1,3 +1,8 @@
+PATH
+  remote: /Users/thomas/Code/jekyll-migrate-permalink
+  specs:
+    jekyll-migrate-permalink (0.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -244,6 +249,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-migrate-permalink!
 
 BUNDLED WITH
    1.16.1

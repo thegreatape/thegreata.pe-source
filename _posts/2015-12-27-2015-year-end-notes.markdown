@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 2015 Year End Notes
+redirect_from:
+- "/2015-year-end-notes"
 ---
 
 Even if New Year's resolutions are a terrible way to make lasting habit changes, I like using the end of the year as a reminder to take stock of how I did with respect to [last year's goals](http://thegreata.pe/2014-year-end-notes/) and see what I want to change.

@@ -41,8 +41,15 @@ timezone:    America/New_York
 future:      true
 markdown:    kramdown
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      category: "articles"
+
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink: pretty
 
 syntax_highlighter_opts:
   auto_ids: true
@@ -50,6 +57,9 @@ syntax_highlighter_opts:
   entity_output: as_char
   toc_levels: 1..6
   syntax_highlighter: rouge
+
+plugins:
+  - jekyll-redirect-from
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

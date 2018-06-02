@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "The Elements of Computing Systems: Hardware, Complete"
+title: 'The Elements of Computing Systems: Hardware, Complete'
+redirect_from:
+- "/hardware-complete"
 ---
 
 Holy crap, we’re done with the hardware part. I built a computer!

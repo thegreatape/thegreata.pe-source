@@ -2,6 +2,8 @@
 layout: post
 published: true
 title: Postgres connection errors after upgrading Ruby
+redirect_from:
+- "/postgres-connection-error-after-upgrading-ruby"
 ---
 
 After I recently upgraded Ruby 2.0.0 from p195 to p247, I started getting this error when starting some of my Rails projects for development:

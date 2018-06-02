@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Notes on Prolog: Seven Languages in Seven Weeks"
+title: 'Notes on Prolog: Seven Languages in Seven Weeks'
 date: 2012-05-24 20:37
 comments: true
 categories: 
+redirect_from:
+- "/notes-on-prolog-seven-languages-in-seven-weeks"
 ---
 
 A quick note on setup: on OS X Lion, I had to install GNU Prolog with `brew install gnu-prolog --use-gcc` to avoid compilation errors when using Clang. 

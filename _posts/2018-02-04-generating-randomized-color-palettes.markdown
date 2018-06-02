@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Generating Randomized Color Palettes (That Aren’t Clown Vomit)"
+title: Generating Randomized Color Palettes (That Aren’t Clown Vomit)
 image:
   thumb: lo-color-test-small.png
+redirect_from:
+- "/generating-randomized-color-palettes"
 ---
 
 Before we dive into randomized color palette generation, a little context on what brought me here:

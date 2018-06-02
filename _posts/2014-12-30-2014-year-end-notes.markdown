@@ -2,6 +2,8 @@
 layout: post
 title: 2014 Year End Notes
 description: Another year, another time for rambling retrospection and course adjustment.
+redirect_from:
+- "/2014-year-end-notes"
 ---
 
 Another year, another time for rambling retrospection and course adjustment.

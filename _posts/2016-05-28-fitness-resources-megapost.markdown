@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Fitness Resources Megapost"
+title: Fitness Resources Megapost
+redirect_from:
+- "/fitness-resources-megapost"
 ---
 
 _Last updated March 3rd, 2018: see **[changelog](#changelog)**_

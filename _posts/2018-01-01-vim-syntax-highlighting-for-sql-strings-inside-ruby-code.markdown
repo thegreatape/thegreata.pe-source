@@ -3,8 +3,9 @@ layout: post
 title: Vim syntax highlighting for SQL strings inside Ruby code
 image:
   thumb: ruby-sql-after.png
+redirect_from:
+- "/vim-syntax-highlighting-for-sql-strings-inside-ruby-code"
 ---
-
 
 Working in Rails, it’s not uncommon to have database queries that are better off expressed without using ActiveRecord. This usually means stuffing the SQL query itself into a string, and then running it against the database using `ActiveRecord::Base.connection.execute`. Unfortunately, these queries tend to be on the large and complex side, so having a big blob of un-highlighted SQL in the middle of your Ruby code isn’t the nicest thing.
 

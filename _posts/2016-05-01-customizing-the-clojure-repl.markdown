@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Customizing The Clojure REPL"
+title: Customizing The Clojure REPL
+redirect_from:
+- "/customizing-the-clojure-repl"
 ---
 
 One of the things that makes Clojure great is its fantastic REPL. "REPL" stands for "read eval print loop"—it's a command-line console where you can type in Clojure code and run it. It's a great way to experiment and learn; I'll often prototype a piece of code in the REPL before moving it back over to my editor to save in my project.

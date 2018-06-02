@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 2017 Year End Notes
+redirect_from:
+- "/2017-year-end-notes"
 ---
 
 Another year, another time for personal reflection and course adjustments.

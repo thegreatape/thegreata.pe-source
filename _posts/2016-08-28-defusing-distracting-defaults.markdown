@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Defusing Distracting Defaults: An Experiment In Automating Better Habits"
+title: 'Defusing Distracting Defaults: An Experiment In Automating Better Habits'
+redirect_from:
+- "/defusing-distracting-defaults"
 ---
 
 Ever have one of those moments where you're browsing Instagram/Facebook/Twitter/whatever, realize you've burned an hour you meant to use working on something else, close the tab in disgust... then realize you've reopened the same site without even thinking about it?

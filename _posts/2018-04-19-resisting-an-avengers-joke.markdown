@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "The Elements Of Computing Systems: Resisting An Avengers Joke"
+title: 'The Elements Of Computing Systems: Resisting An Avengers Joke'
+redirect_from:
+- "/resisting-an-avengers-joke"
 ---
 
 Out of the wiring swamp, on to the [dizzying but invisible depths](https://plus.google.com/+JeanBaptisteQueru/posts/dfydM2Cnepe) of software abstraction.

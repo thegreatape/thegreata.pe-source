@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Notes on Haskell: Seven Languages In Seven Weeks"
+title: 'Notes on Haskell: Seven Languages In Seven Weeks'
 date: 2012-07-23 23:48
 comments: true
 categories: 
+redirect_from:
+- "/notes-on-haskell-seven-languages-in-seven-weeks"
 ---
 
 I'll admit I approached Haskell with a bit of trepidation: the language has a tongue-in-cheek unofficial motto of "avoid success at all costs" and a reputation of only being used by academic ivory-tower types. 

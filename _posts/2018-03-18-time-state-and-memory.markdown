@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "The Elements Of Computing Systems: Time, State & Memory"
+title: 'The Elements Of Computing Systems: Time, State & Memory'
+redirect_from:
+- "/time-state-and-memory"
 ---
 
 Oh boy, a clock! In this chapter of [nand2tetris](http://www.nand2tetris.org/), we started teaching our logic circuits about time and consequently, memory. We’re introduced to a single new primitive, a data flipflop: all it does is output the value of its input one clock tick ago. With that and the array of combinatorial logic gates from previous chapters, we build all the way up to 16 kilobye RAM chips! 

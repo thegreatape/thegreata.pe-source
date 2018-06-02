@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Interlude - Furball"
+title: Interlude - Furball
+redirect_from:
+- "/interlude-furball"
 ---
 
 First, I’d like to introduce Ripley, one of the reasons my attention is a little scarce at the moment:

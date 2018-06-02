@@ -1,8 +1,11 @@
 ---
 layout: post
-title: "The Elements of Computing Systems: Putting The Blinking Lights Back In Computer Science"
+title: 'The Elements of Computing Systems: Putting The Blinking Lights Back In Computer
+  Science'
 image:
   thumb: circuit-sketch.jpg
+redirect_from:
+- "/blinking-lights"
 ---
 
 Last week, I cracked open [The Elements of Computing Systems](http://www.nand2tetris.org/) and started working through it. It's a book with a pretty cool idea: it walks you through thirteen projects that all build upon each other to create a complete general-purpose computer. The first chapter starts with transistors and logic gates; the last has Tetris running on an operating system you wrote!

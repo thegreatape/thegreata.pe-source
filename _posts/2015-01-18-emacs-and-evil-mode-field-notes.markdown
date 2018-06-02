@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Emacs and Evil-mode: Field Notes"
+title: 'Emacs and Evil-mode: Field Notes'
+redirect_from:
+- "/emacs-and-evil-mode-field-notes"
 ---
 
 Back in December, I started experimenting with getting Emacs set up to use Vim-style modal editing. I'd begun studying Clojure more deeply and Emacs's [CIDER](https://github.com/clojure-emacs/cider) is the most popular editing environment for Clojure, so I felt like I at least owed it a look. I'd also found myself thinking about and agreeing with a central tenant of Emacs philosophy: that your tools should evolve with you and become deeply customized over time.

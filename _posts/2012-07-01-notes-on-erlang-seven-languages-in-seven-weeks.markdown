@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Notes on Erlang: Seven Languages In Seven Weeks"
+title: 'Notes on Erlang: Seven Languages In Seven Weeks'
 date: 2012-07-01 18:37
 comments: true
 categories: 
+redirect_from:
+- "/notes-on-erlang-seven-languages-in-seven-weeks"
 ---
 
 Erlang's syntax and semantics feel like modern Prolog. It's another almost-purely functional language, with all immutable variables. Basic operations are done via pattern matching with free variables and list deconstruction that make it clear why Prolog came first in the book.  Erlang also shares Prolog's bizarre-to-modern-eyes punctuation rules; I still haven't quite figured out when a statement should be terminated with a comma, period or semi-colon. 

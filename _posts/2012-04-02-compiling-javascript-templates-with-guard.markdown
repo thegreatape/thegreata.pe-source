@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Compiling Javascript templates with Guard"
+title: Compiling Javascript templates with Guard
 date: 2012-04-02 21:02
 comments: true
 categories: 
+redirect_from:
+- "/compiling-javascript-templates-with-guard"
 ---
 
 Yesterday, I released the first version of [guard-templates](https://github.com/thegreatape/guard-templates), my Guard plugin for compiling Javascript templates as you work. 
