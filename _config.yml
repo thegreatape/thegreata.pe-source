@@ -2,7 +2,7 @@ title:            Duct Tape and Turing Machines
 tagline:
 description:      Duct Tape and Turing Machines
 #Comment out url when working locally to resolve base urls correctly
-url:              https://thegreata.pe
+#url:              https://thegreata.pe
 logo: "birds.jpg"
 
 # Owner/author information
@@ -44,20 +44,12 @@ markdown:    kramdown
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
 
-kramdown:
+syntax_highlighter_opts:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
   syntax_highlighter: rouge
-
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
