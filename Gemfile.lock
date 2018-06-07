@@ -1,5 +1,6 @@
-PATH
-  remote: /Users/thomas/Code/jekyll-migrate-permalink
+GIT
+  remote: https://github.com/thegreatape/jekyll-migrate-permalink
+  revision: 2032ef342ffa6ed43dc8988736764cf19d42002c
   specs:
     jekyll-migrate-permalink (0.2.0)
 
