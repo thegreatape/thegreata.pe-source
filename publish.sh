@@ -1,5 +1,7 @@
 #!/bin/bash
+sed -i'' -e 's/^url:/#url:/' _config.yml
 bundle exec jekyll build
+sed -i'' -e 's/^#url:/url:/' _config.yml
 rsync -rtvu --delete --exclude .git _site/ ../thegreatape.github.io
 cp CNAME ../thegreatape.github.io/
 cd ../thegreatape.github.io/
