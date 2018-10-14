@@ -5,7 +5,7 @@ redirect_from:
 - "/fitness-resources-megapost"
 ---
 
-_Last updated March 3rd, 2018: see **[changelog](#changelog)**_
+_Last updated October 14th, 2018: see **[changelog](#changelog)**_
 
 I'm a huge fitness nerd, and I'll talk your ear off about all aspects of physical training given half a chance. I frequently wind up sending reading recommendations to people who're interested in knowing more after chatting, and figured it was time to put together a big list of the fitness resources I've gotten the most out of.
 
@@ -21,7 +21,7 @@ Some books for building a conceptual framework to understand what fitness is all
 
 - __[The Art & Science of Lifting](http://www.strongerbyscience.com/art-and-science/)__ by Greg Nuckols and Omar Isof — Two relatively short ebooks that are probably the best introduction to the principals of successful strength training. As the titles suggest, they cover both practical techniques as well as the backing scientific research. For further reading, [Greg's Stronger By Science](http://www.strongerbyscience.com) is a goldmine of good information.
 
-- __[Fit](http://www.amazon.com/Fit-Lon-Kilgore/dp/0615497063)__ by Kilgore, Hartman, Laseck — Another good deep guide to the practice and science of fitness. Where _Art & Science_ covers mostly getting strong, _Fit_ goes into conditioning, mobility, and a bit of anatomy as well.
+- __[The Muscle and Strength Pyramids](https://muscleandstrengthpyramids.com/)__ by Eric Helms, Andy Morgan, Andrea Valdez - Strength training and nutrition guides that lay out a clear set of priorities for getting results. Truly excellent for helping beginners figure out what's actually important and what's trivial details. A little spendy but pure gold.
 
 - __[Intervention](https://www.amazon.com/Intervention-Course-Corrections-Athlete-Trainer-ebook/dp/B00ABNEN3G)__ by Dan John — One of those books I keep coming back to. Enough ideas, philosophy and guidelines to keep you busy for a lifetime. I know I'm due for a re-read because I haven't been doing my loaded carries...
 
@@ -141,6 +141,9 @@ Fitness podcasts I've found worth listening to:
 - __[Fix Your Kettlebell Clean](https://www.jensinkler.com/fix-your-kettlebell-clean/)__ Another Light Dawns on Marblehead moment for yours truly—I never quite got how to clean without landing the bell heavily on my arm until I tried out Jen's cues.
 
 ## <a name="changelog"></a>[Changelog](#changelog)
+__2018-10-14__:
+* Replace _Fit_ with _The Muscle and Strength Pyramids_.
+
 __2018-03-03__:
 * Added Podcast section
 
