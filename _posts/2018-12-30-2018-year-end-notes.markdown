@@ -1,0 +1,63 @@
+---
+title: '2018 Year End Notes'
+layout: post
+---
+
+At the end of 2018, looking inwards. How did that go?
+
+## Dog
+In April, my wife and I adopted a puppy! This is [Ripley](https://www.instagram.com/ripleyromps/)—she’s a German Shepherd / Basset Hound / ¯\\_(ツ) /¯ mix that we adopted through [Great Dog Rescue New England](https://www.gdrne.com/). (For the record, that's “Lieutenant Ellen” not “Believe It Or Not”.)
+
+![](/images/ripley-winter.png)
+ 
+She’s been a wonderful addition to the household, and we’ve spend much of the year learning how to Life With Dog.
+
+## Fitness
+From last year:
+> I have one simple goal for next year: commit to running [Average to Savage](https://www.strongerbyscience.com/training-toolkit/) for the whole year.
+
+I did this! And it worked pretty well. Over the course of three runs through the program, I put 45 lbs on my squat and deadlift training maxes, 22.5 lbs on bench press, and maybe 5 lbs on overhead press. I haven't tested true 1RMs all year, but rep maxes have all been moving in the right direction. Most importantly for my goals: I got modestly more jacked, definitely can handle more volume, and _didn't get hurt_. 
+
+For 2019, I’d like to take the base I built this year and push my top-end strength up to make progress towards my long-term 2/3/4/5 plate goals for press/bench/squat/deadlift. I’ll definitely be committing to another single program for a long stretch of time, at least six months. Maybe a year. The leading candidate is something [GZCL method](http://swoleateveryheight.blogspot.com/2014/07/the-gzcl-method-simplified_13.html)-based. I'm giving myself until I get back from visiting family in the second week of January to firmly commit to the specifics.
+
+## Reading
+I read less than my usual this year, only finishing 31 books. Seven of these were over 700 page fantasy doorstoppers, so that’s not *quite* as low as sounds, but it’s still substantially less than last year. I think a gentle nudge to spend a few more evenings reading is in order here.
+
+Rough breakdown by genre:
+- Fantasy: 15
+- Nonfiction: 7
+- Scifi: 5
+- Fitness: 4
+
+On the diversity-of-authors front: of 31 books read, 14 were by women, 3 were by people of color and 4 were by publicly LGBTQ authors.
+
+Notable books from 2018:
+- [Why We Sleep](https://www.goodreads.com/book/show/34466963-why-we-sleep) An eye-opening book on shuteye (sorry). I’ve been on the sleep-is-super-important train for a while, but this absolutely underscored how critical good sleep is to a live well-lived.
+- [A Memory Of Light](om/book/show/7743175-a-memory-of-light) As a teenager, I must have read and re-read what had been published of the Wheel of Time maybe three or four times. Re-reading the series beginning last year felt like visiting old friends; finally reading the end two decades later was quite emotional.
+- [Thinking In Bets](https://www.goodreads.com/book/show/35957157-thinking-in-bets) A great read on decision making and risk; “resulting” has permanently entered my vocabulary at this point.
+
+## Software
+I [quit using Twitter](https://twitter.com/thegreatape/status/972995638794358784) in March. My reasons at the time were time and attention-based, but I think what’s kept me from coming back is how much better it’s been for my mental health. I miss some of the connections I had with people there, but I don't miss taking a cortisol bath every time I opened Tweetdeck.
+
+I’ve spent a lot of time this year trying out different tools and techniques for organizing notes and todos. 
+- I used [Bear](https://bear.app/) as my primary notes and todo app for a lot of the year. I really really loved its polished markdown editing, but I had to abandon it after I ran into some ugly/mysterious syncing problems (showing up to 1:1s with team members and having the last few months of notes gone is *not* fun).
+- I tried [Bullet Journaling](https://bulletjournal.com/) for a month or so. I liked the self-reflection habit it enabled, but needing to continually scan pages for loose ends wasn’t for me and a physical notebook isn’t good for ubiquitous capture of ideas, especially on public transit.
+- [Notion](https://notion.so) has a lot going for it as notes / todo / personal wiki app, but it didn’t quite all hang together after a few weeks of use. The typography / layout were a little awkward, it was difficult to use without touching the mouse, and it was slow and laggy in that just-enough-to-be-annoying way that Electron apps often have. I think I’d happily use it as a part of a team at work, though. 
+- I’m currently trying out [Ulysses](https://ulysses.app/) for notes and writing: this post has been largely written using it.
+- [Habitica](https://habitica.com) has been surprisingly (and slightly embarrassingly) effective at helping me stick to daily / weekly habits. I’m also using it for todo tracking, not because it’s super great at that, but because the habit part makes sure I’m actually looking at my lists daily.
+
+I don’t have a ton of time to play games, and tend to go all-in on a single game at a time. I played a lot of [Overwatch](https://playoverwatch.com/) early in the year, but found it was only really fun when playing with friends I actually knew. Switched over to playing [Warframe](https://www.warframe.com/) since, and it’s been a blast. 
+
+## Learning / Attention
+Last year, I said:
+> ...in 2018, I’m going to try averaging one post a week here about something I’m learning, practicing or building.
+
+That did not go well. Right off the bat, I had trouble hitting that weekly cadence. Working through [nand2tetris](https://www.nand2tetris.org/) was slow and trying to get a weekly piece written on it felt more like producing a grade school book report than sharing the joy and satisfaction of learning. I disliked how these pieces read enough to [push them off the front page](https://thegreata.pe/logbook/) of this blog.
+
+Falling further and further behind added stress and guilt instead of getting me excited. When my wife and I adopted Ripley at eight weeks old in April, my free time and sleep schedule got put in a blender for most of the summer. I never really got back on track, aside from a brief burst of hilariously overestimating my time and mental energy in [starting a learn to draw course](https://thegreata.pe/logbooks/2018-06-24-15/).
+
+There are a lot of stories out there about people using methods like this to accomplish great creative endeavors (famously, Jerry Seinfeld's daily [don't break the chain](https://www.writersstore.com/dont-break-the-chain-jerry-seinfeld/)). I wouldn’t rule out this approach from ever working for me, but this particular implementation was clearly a very poor fit.
+
+What can I take away from this failure? It may have come down to this: learning is not a linear process. You go through through long periods of struggling to absorb and integrate new information before any breakthroughs happen. In setting that concrete writing goal, I trying to graft a nonlinear progression onto a strict schedule. Maybe it shouldn't be surprising that it backfired on me.
+
+I still need to find a process that works for me. I still think a lot about [Deep Work](http://calnewport.com/books/deep-work/) and want to push towards a place where that kind of deep, meaningful focus and work is a regular part of my life. So: for 2018, I’m going to run a bunch of experiments to see what I can get to stick, maybe one a month or so. I might share the results, but probably not until year’s end when I’ve had a long time to see how the successful tests play out.
