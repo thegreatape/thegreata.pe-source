@@ -1,0 +1,6 @@
+%ul
+  - readings.each do |reading|
+    %li
+      %strong= reading["Book"]["Title"]
+      by
+      = reading["Book"]["Authors"]
