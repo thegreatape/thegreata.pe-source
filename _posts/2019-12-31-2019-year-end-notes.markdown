@@ -1,0 +1,118 @@
+---
+title: '2019 Year End Notes'
+layout: post
+---
+
+Another trip around the sun, another time to reflect on the way it went.
+
+## Lifting
+
+### What Went Well
+
+Even if they weren't earthshatteringly huge, I did set a bunch of PRs in a bunch of rep ranges across all my main lifts. Progress is progress, and progress is good. Knowing this was aided by wrapping up a project where I went through my old pen and paper training logs and made a spreadsheet tracking rep PRs by date for each lift. SUPER helpful for making sure I'm making progress without needing to test 1RMs.
+
+I also finally figured out how to fit in cardio consistently and without taking away from my lifting unduly. Two factors: getting an airbike for a low-impact, all-weather indoor option and following the protocols in the [Tactical Barbell Conditioning book](https://www.amazon.com/Tactical-Barbell-II-Conditioning-Black-ebook-dp-B0143HDCWS/dp/B0143HDCWS/). It worked: my rest times are down in between sets, and I've been able to build up a good "yup, can do that" level of endurance. Certainly nothing like what serious endurance athletes do (or even enthusiasts), but really great for keeping the wheels on health and general fitness wise while I put more energy into lifting-specific goals.
+
+As silly as it sounds, dropping a little money on a second barbell and power rack for the basement this year was also a huge win. Liz and I are both pretty busy, and not having to play schedule-Tetris around lifting time has been a big help. 
+
+### What Didn't Go Well
+
+I'm observing more and more that high intensity, lower rep training seems to beat me up. Every dedicated strength block I ran this year banged me up somehow: I got stronger for sure, but I also wound up accumulating way more tweaks / injury precursors than when I did more hypertrophy-oriented blocks. Some degree of injuries is just part of this (as with, well, life), but the rate that issues cropped up just skyrocketed when I was pushing on heavy low-rep, powerlifting-style training.
+
+And back squatting and my elbows, man. I tried all kinds of different hand positions, and even moderately heavy loads seemed to aggravate it. I just ditched them entirely over the summer and have been front and SSB squatting exclusively since then. At least those are going well.
+
+### What's Next
+
+Looking back, the periods where I'm able to consistently put in work and improve are when I'm training more like a bodybuilder than a powerlifter.
+
+I *do* have long-term strength goals, but maybe I should listen to [me circa 2016](https://thegreata.pe/articles/2016/12/31/2016-year-end-notes/):
+
+> Generally, I want to: feel good, look good, and be strong, in that order. 
+
+I'm feeling like it's time to take the long way around to those strength goals. Progressing with more moderate to high rep training will sure take me longer to put 500lbs on a deadlift, but if I'm pulling it for five with reps left in the tank, I think that'll sure feel "strong" to me. Or even simpler: maybe just taking a conservative max attempt here and there, but not spending much time training with heavy singles/doubles/triples.
+
+## Reading
+
+I hit my goal of 40 books! Not sure if I'll aim for the same amount next year or a little less- I did have to deliberately pick a couple novellas off my TBR list in December to hit that one. Might be nice to have a little more slack to do stuff like working through tougher material where I want to go slowly and take notes.
+
+### Rough breakdown
+
+- Science fiction: 18
+- Fantasy: 11
+- Nonfiction: 7
+- Fitness: 2
+- Tech: 2
+
+On the diversity-of-authors front: of 40 books read, 16 were by women, 5 were by people of color and 9 were by publicly LGBTQ authors.
+
+### Notable books from 2019
+
+- [Ruin of Kings](https://www.goodreads.com/book/show/39863237-the-ruin-of-kings): One of the fresher fantasy books I've read recently: compelling characters, worldbuilding, and occasionally laugh out loud funny.
+- [A Memory Called Empire](https://www.goodreads.com/book/show/37794149-a-memory-called-empire): A moving space opera that I found a beautiful and heartbreaking exploration of empire and colonialism. 
+- [Children of Ruin](https://www.goodreads.com/book/show/41721879-children-of-ruin): A sequel to one of my favorite reads from 2016, this book and [Guns of the Dawn](https://www.goodreads.com/book/show/23524779-guns-of-the-dawn) have cemented Adrian Tchaikovsky as one of my new favorite writers. It's high concept space opera with intelligent octopuses and some genuine alien horror.
+- [Digital Minimalism](https://www.goodreads.com/book/show/40672036-digital-minimalism): Cal Newport's work consistently clicks with me. I *really* liked a couple of the takehomes here: use only the technology that best supports your deeply held values and that intentionality can be satisfying in and of itself.
+- [Learning Rust](https://www.goodreads.com/book/show/35382044-the-rust-programming-language): A well-written introduction to the Rust programming language, but mainly notable because I'd bounced off finishing this earlier in the year due to lack of focus. Finishing it was a good signal that I'm moving in a better direction.
+
+## Attention / Intentionality Experiments
+
+From [last year](https://thegreata.pe/articles/2018/12/30/2018-year-end-notes/):
+
+> for 2018, I’m going to run a bunch of experiments to see what I can get to stick, maybe one a month or so. I might share the results, but probably not until year’s end when I’ve had a long time to see how the successful tests play out.
+
+In no particular order:
+
+### Taking More Notes
+
+I read [How To Take Smart Notes](https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes) in January, and it got me thinking more about how writing and note taking *are* thinking. I didn't adopt the Zettlekasten system that the book discusses, but I've taken *way* more notes this year both at work and at home. 
+
+Results: I feel like it's made a difference in my ability to pull together thoughts quickly into something coherent.
+
+### Digital Declutter
+
+From Cal Newport's Digital Minimalism, above: I took a month away from non-essential technology. In my case, that was reddit, instagram, news and any other damn thing that I'd find myself opening in a browser tab before I realized I was doing it. 
+
+Results: I found it helpful to force me to flat out break some bad habits: just trying to reduce the time spent on these was much tougher than just banning them entirely for a while, then re-establishing a better relationship.
+
+### No Booze
+
+Abstaining April? Anyway, I was starting to notice in the morning how I felt if I had a drink before bed, and _really_ how I felt if I had more than one. I gave myself a month dry to see how it affected overall energy and sleep, and honestly just to make sure I _could_ and that my relationship with alcohol wasn't becoming problematic. 
+
+Results: noticeably fewer "blah" mornings, and in the months afterwards, less having an evening drink out of habit.
+
+### Emacs / Org-Mode
+
+Having tried a bunch of different note-taking apps and TODO trackers (notably Ulysses and Habitica), I still had a bunch of ideas about what the ideal note taking / personal information management system would look like. I figured that I'd try org-mode for a bit before taking the plunge and writing my own thing. Turns out it's just about as customizable as I needed. Tried spacemacs and doom-emacs, but the learning curve of (re)learning emacs, org-mode AND their own systems/opinions on configuration wound up a bit much. I finally just resurrected my old emacs config from the last time I tried using it (hooray git) and got something workable going from there. 
+
+Results: still using org-mode for note-taking, but I never really got it set up for TODO tracking in a way that worked long-term for me.
+
+### Mornings For Creative Work
+
+I found I was still struggling (as I had for years) to fit creative work into my life: writing, personal coding, art, etc. So, combining a few observations from the last year:
+
+- My wakeup times are earlier and way more consistent due to Her Imperial Dogbutt needing to be let out and walked.
+- I've been lifting weights for almost seven years, and that habit is SOLID. Especially with a home gym for the last three years, I don't miss workouts outside of sickness / injury / etc. I've always lifted in the mornings, before work.
+- On my rest days or weekends, I'd find that mornings were now my best time for getting code written. A couple cups of coffee after walking the dog and things would flow really easily.
+
+So I tried shifting my workouts to the evening (which take ~1 - 1.5 hours), getting to work a bit earlier on days I'm in the office and shooting for 30-60 minutes of creative work in the morning before I hop on a bus or up to the home office to get working.
+
+Results: the creative work in the morning didn't really pan out, but having my work schedule an hour earlier actually wound up fitting me nicely. And I've kept the evening workouts because it's been nice to be able to take an extra few minutes of rest when needed without feeling rushed or stressing about missing the bus.
+
+### Bullet Journaling (Again)
+
+I tried using a [Bullet Journal](https://bulletjournal.com/) pen and paper system to track TODOs and habits last year, and fell out of it after about a month. But the idea of keeping that tracking and thinking process away from my computer has an enduring appeal, so I gave it another shot in the hopes that it'd lend some calm and deliberateness to my planning.
+
+Results: I found the morning and evening review much easier to stick to with paper, and quite valuable. But for daily use, the continual scanning of pages needed to pick out what needs attention just made me worry about all of it, instead of feeling like I could offload what's in my head.
+
+### New Keyboard -> Accidental Better Habits
+
+This was an unintentional experiment. In the fall, I was getting some early RSI wrist strain issues, and decided to take the plunge on getting an [Ergodox EZ](https://ergodox-ez.com/) to reduce the lateral hand movement during typing that seems to piss my wrists off. When I got the keyboard, I committed to only using that keyboard for a month (rather than alternating with my laptop's keyboard) to speed up motor learning.
+
+Results / unexpected bonus: a big time-wasting trigger for me was opening my laptop on a comfortable chair and "just relaxing for a few minutes" (e.g. feeding an hour into derping on internet). Removing the sitting down with laptop trigger actually did a really good job of reducing the amount of time I'd burn this way!
+
+Also: the keyboard is dope as hell. 
+
+### Accountability Buddy
+
+Last, but definitely not least: I think this one's moved the needle more on spending my time intentionally than anything else on this list. In late fall, after discussing with a friend how we were both struggling to make progress on projects, we committed to a simple accountability pact: each Sunday, we email each other about what we accomplished the last week.
+
+Results: It's been huge for me so far. I starting keeping a worklog/diary for my projects, first just to make the weekly email easier to compose, but that as well has turned out to give me some valuable mid-week deliberateness. Especially on days where I don't work on my chosen project, it's helped me immensely to write down "taking the evening off to recharge". And knowing I'll be sending that to a friend later helps me be honest with myself.
