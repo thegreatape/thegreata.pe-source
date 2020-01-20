@@ -1,0 +1,18 @@
+- years.each do |year, data|
+  %h3=year
+  %p
+    = data["readings"].count
+    = "book".pluralize(data["readings"].count)
+    - if year.to_i == Date.current.year
+      = " so far!"
+    - else
+      = " total."
+
+  - data["stats"].each do |key, counts|
+    %h4=key
+    %table
+      %tbody
+        - counts.each do |field, count|
+          %tr
+            %td=field
+            %td=count
