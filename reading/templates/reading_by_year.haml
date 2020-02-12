@@ -16,3 +16,25 @@
           %tr
             %td=field
             %td=count
+
+  %table.table
+    %thead
+      %tr
+        %th Book
+        %th Rating
+    %tbody
+      - data["readings"].group_by {|r| Date.parse(r["Finished On"]).month }.to_a.sort.map do |month, readings|
+        %tr
+          %th{colspan: 2, scope: 'colgroup'}=Date::MONTHNAMES[month]
+        - readings.each do |reading|
+          %tr
+            %td
+              %strong=reading["Book"]["Title"]
+              by
+              =reading["Book"]["Authors"]
+            %td
+              - if reading["Rating"]
+                #{reading["Rating"]} / 5
+              - else
+                Not Rated
+
