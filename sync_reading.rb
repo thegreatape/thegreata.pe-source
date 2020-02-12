@@ -53,8 +53,8 @@ class SyncReading
   end
 end
 
-SyncReading.save_currently_reading_data('reading/currently_reading.json')
-SyncReading.save_all_finished('reading/finished.json')
+#SyncReading.save_currently_reading_data('reading/currently_reading.json')
+#SyncReading.save_all_finished('reading/finished.json')
 
 SyncReading.render(
   json_filename: 'reading/finished.json', 
