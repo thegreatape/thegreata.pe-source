@@ -1,0 +1,18 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %title Hello Bulma!
+    %link{:href => "https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css", :rel => "stylesheet"}/
+    %script{:defer => "defer", :src => "https://use.fontawesome.com/releases/v5.3.1/js/all.js"}
+  %body
+    %section.section
+      .container
+        %h1.title
+          Hello World
+        %p.subtitle
+          My first website with
+          = succeed "!" do
+            %strong Bulma

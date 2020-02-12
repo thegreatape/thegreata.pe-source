@@ -1,4 +1,4 @@
 ---
-layout: post-index
+layout: home
 title: Thomas Mayfield
 ---
