@@ -1,10 +1,12 @@
 !!!
 %html
   {% haml header.haml %}
-  %body
+  %body.post{class: "{{page.body-class}}"}
     {% haml nav.haml %}
     %section.section
       .container
         %h2.title.is-2 {{ page.title }}
-        .date {{ page.date | date: "%B %d, %Y" }}
+        {% if page.date %}
+        .date.subtitle.is-5 {{ page.date | date: "%B %d, %Y" }}
+        {% endif %}
         .content= "{{ content }}"

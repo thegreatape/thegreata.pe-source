@@ -7,15 +7,15 @@
       .container
         {% for post in site.posts %}
         {% unless post.next %}
-        %h2.title.is-2.year {{ post.date | date: '%Y' }}
+        %h2.title.is-3.year {{ post.date | date: '%Y' }}
         {% else %}
         {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
         {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
         {% if year != nyear %}
-        %h2.title.is-2.year {{ post.date | date: '%Y' }}
+        %h2.title.is-3.year {{ post.date | date: '%Y' }}
         {% endif %}
         {% endunless %}
-        .article
+        .article.is-size-5
           %a.article-title{href: "{{ site.url }}{{ post.url }}", title: "{{ post.title }}"} {{ post.title }}
           %span.post-date {{ post.date | date: '%b %d' }}
         {% endfor %}

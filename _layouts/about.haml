@@ -1,0 +1,20 @@
+!!!
+%html
+  {% haml header.haml %}
+  %body.post.bio
+    {% haml nav.haml %}
+    %section.section
+      .container
+        %h2.title.is-2 About Me
+
+        %img.bio-image{src: "/images/bio-photo.png", alt: "It's me!"}
+
+        .content
+          :markdown
+            Programmer who loves the weird beautiful chaos of humans building software together. Fitness nerd. Southern kid living in Massachusetts. Professionally shaving yaks and helping people find books to read at [BookBub](https://www.bookbub.com).
+
+            Around the web:
+
+            - [Twitter](https://twitter.com/thegreatape)
+            - [Github](https://github.com/thegreatape)
+

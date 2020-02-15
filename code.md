@@ -4,6 +4,8 @@ permalink: /code/index.html
 title: Code
 ---
 
+A few side software projects I've worked on over the years.
+
 * [literate minuteman](http://www.literate-minuteman.com) ([github](http://github.com/thegreatape/literate-minuteman)) : Site to check what books are available at your local Boston library from your Goodreads to-read list.
 
 * [lyeberry](https://github.com/thegreatape/lyeberry) : Exposing Boston-area library books as RESTful resources.
