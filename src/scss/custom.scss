@@ -36,6 +36,26 @@ $article-date-offset: 85px;
   }
 }
 
+.reading {
+  .stats-box { 
+    height: 100%;
+  }
+  .last-month-in-year {
+    // bulma's styles with multi-rowspan td leave a bottom border
+    border-bottom: 0px;
+  }
+  .not-rated {
+    color: $grey;
+  }
+
+  .currently-reading {
+    margin-bottom: 24px;
+    .started-on {
+      color: $grey;
+    }
+  }
+}
+
 
 // code blocks
 .content .highlight {

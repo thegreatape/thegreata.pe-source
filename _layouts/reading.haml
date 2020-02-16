@@ -1,0 +1,74 @@
+- require 'active_support/all'
+- require 'action_view'
+- class Helper; include ActionView::Helpers::DateHelper; end
+- h = Helper.new
+- readings = JSON.parse(File.read("reading/books.json"))
+
+!!!
+%html
+  {% haml header.haml %}
+  %body.reading
+    {% haml nav.haml %}
+    %section.section
+      .container
+        %h2.title.is-3 Currently Reading
+        .currently-reading
+          %ul
+            - readings["currently_reading"].each do |reading|
+              %li
+                %p
+                  %strong= reading["Book"]["Title"]
+                  by
+                  = reading["Book"]["Authors"]
+                  %p.started-on
+                    Started 
+                    = h.time_ago_in_words(reading["Started On"])
+
+        - readings["by_year"].each do |year, data|
+          %h2.title.is-3=year
+          .columns
+            .column
+              .box.stats-box.has-text-centered
+                %h3.title.is-5 Read
+                .title.is-1= data["readings"].count
+                = "book".pluralize(data["readings"].count)
+                - if year.to_i == Date.current.year
+                  = " so far!"
+                - else
+                  = " total"
+
+            - data["stats"].each do |key, counts|
+              .column
+                .box.stats-box
+                  %h3.has-text-centered.title.is-5=key
+                  %table.table.is-fullwidth
+                    %tbody
+                      - counts.each do |field, count|
+                        %tr
+                          %td=field
+                          %td=count
+
+          %table.table.is-fullwidth
+            %thead
+              %tr
+                %th Month
+                %th Book
+                %th Rating
+            %tbody
+              - months = data["readings"].group_by {|r| Date.parse(r["Finished On"]).month }.to_a.sort
+              - months.each_with_index do |pair, month_index|
+                - month, readings = pair
+                - readings.sort {|a, b| a["Finished On"] <=> b["Finished On"] }.each_with_index do |reading, i|
+                  %tr
+                    - if i == 0
+                      %td{rowspan: readings.length, class: month_index + 1 == months.length ? "last-month-in-year" : ""}=Date::MONTHNAMES[month]
+                    %td
+                      %strong=reading["Book"]["Title"]
+                      by
+                      =reading["Book"]["Authors"]
+                    %td
+                      - if reading["Rating"]
+                        = reading["Rating"].times.map{ "\u2605"}.join
+                      - else
+                        %span.not-rated Not Rated
+

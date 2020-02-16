@@ -1,6 +1,8 @@
 @charset "utf-8";
 
 $bulmaswatch-import-font: true;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
 @import "_journal.scss";
 @import "~bulma/bulma";
 @import "_journal_overrides.scss";
