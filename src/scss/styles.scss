@@ -3,6 +3,7 @@
 $bulmaswatch-import-font: true;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
+$navbar-breakpoint: 769px; // tablet;
 @import "_journal.scss";
 @import "~bulma/bulma";
 @import "_journal_overrides.scss";
