@@ -7,7 +7,6 @@ TimeAgo.addLocale(en)
 $(function() {
   const timeAgo = new TimeAgo('en-US');
   $('.time-ago').map(function(_index, element){
-    timeAgo.format(new Date());
     $(element).html(timeAgo.format(new Date($(element).html())))
   });
 });
