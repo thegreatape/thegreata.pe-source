@@ -1,7 +1,5 @@
 - require 'active_support/all'
 - require 'action_view'
-- class Helper; include ActionView::Helpers::DateHelper; end
-- h = Helper.new
 - readings = JSON.parse(File.read("reading/books.json"))
 
 !!!
@@ -22,7 +20,7 @@
                   = reading["Book"]["Authors"]
                   %p.started-on
                     Started 
-                    = h.time_ago_in_words(reading["Started On"])
+                    %span.time-ago= reading["Started On"]
 
         - readings["by_year"].each do |year, data|
           %h2.title.is-3=year

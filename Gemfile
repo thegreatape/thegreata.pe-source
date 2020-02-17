@@ -5,7 +5,6 @@ gem 'airrecord'
 gem 'dotenv'
 gem 'nokogiri'
 gem 'activesupport'
-gem 'actionview'
 gem 'byebug'
 gem 'haml'
 
