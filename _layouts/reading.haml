@@ -1,4 +1,5 @@
 - require 'active_support/all'
+- yearly_goals = { 2020 => 35, 2019 => 40, 2018 => 40, 2017 => 40, 2016 => 50, 2015 => 50, 2014 => 50, 2013 => 50, 2012 => 50 }
 - readings = JSON.parse(File.read("reading/books.json"))
 
 !!!
@@ -8,6 +9,11 @@
     {% haml nav.haml %}
     %section.section
       .container
+        %h2.title.is-1 Reading
+        %p.content
+          The books I'm reading now and have read over the years. 
+          %a{href: "/articles/2020/02/17/building-a-custom-reading-list-with-airtable/"} How does this work?
+
         %h2.title.is-3 Currently Reading
         .currently-reading
           %ul
@@ -27,12 +33,20 @@
             .column
               .box.stats-box.has-text-centered
                 %h3.title.is-5 Read
-                .title.is-1= data["readings"].count
-                = "book".pluralize(data["readings"].count)
+                - goal = yearly_goals[year.to_i]
+                - read = data["readings"].count
+                .title.read-count.is-1= read
+                = "book".pluralize(read)
                 - if year.to_i == Date.current.year
-                  = " so far!"
+                  = " so far"
                 - else
                   = " total"
+                - if goal.present?
+                  of a #{goal} book goal.
+                  - if year.to_i == Date.current.year 
+                    %span#progress-to-date{data: {goal: goal, read: read}}
+                    %progress.progress.is-small{value: read, max: goal}
+
 
             - data["stats"].each do |key, counts|
               .column
