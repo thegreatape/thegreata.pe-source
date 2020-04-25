@@ -7,6 +7,26 @@ TimeAgo.addLocale(en)
 $(function() {
   const timeAgo = new TimeAgo('en-US');
   $('.time-ago').map(function(_index, element){
-    $(element).html(timeAgo.format(new Date($(element).html())))
+    const timeGradation = [
+      {
+        format: function(value, locale) {
+          return 'today';
+        }
+      },
+      {
+        threshold: 23.9 * 60 * 60,
+        format: function(value, locale) {
+          return 'yesterday';
+        }
+      },
+      {
+        threshold: 2 * 23.9 * 60 * 60,
+        factor: 24 * 60 * 60,
+        unit: 'day'
+      }
+    ];
+
+    const date = new Date($(element).html());
+    $(element).html(timeAgo.format(date, {gradation: timeGradation}));
   });
 });
