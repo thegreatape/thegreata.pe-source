@@ -26,7 +26,7 @@ $(function() {
       }
     ];
 
-    const date = new Date($(element).html());
+    const date = new Date($(element).html() +' 00:00:00 GMT-0400');
     $(element).html(timeAgo.format(date, {gradation: timeGradation}));
   });
 });

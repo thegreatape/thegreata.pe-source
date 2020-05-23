@@ -25,7 +25,7 @@
                   = reading["Book"]["Authors"]
                   %p.started-on
                     Started 
-                    %span.time-ago= reading["Started On"]
+                    %span.time-ago= Date.parse(reading["Started On"]).strftime("%B %d, %Y")
 
         - readings["by_year"].each do |year, data|
           %h2.title.is-3=year
