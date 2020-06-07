@@ -14,9 +14,9 @@ $(function() {
   if(difference == 1) {
     books = 'book';
   }
-  if(goalBooksPerDay == read) {
+  if(goalBooksByNow == read) {
     message = 'On track!';
-  } else if (goalBooksPerDay > read) {
+  } else if (goalBooksByNow > read) {
     message = `${difference} ${books} ahead!`;
   } else {
     message = `${difference} ${books} behind.`;
