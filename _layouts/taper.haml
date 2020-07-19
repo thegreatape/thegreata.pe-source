@@ -1,0 +1,27 @@
+- require 'date'
+!!!
+%html
+  {% haml header.haml %}
+  %body.home
+    {% haml nav.haml %}
+    %section.section
+      .container.content
+        - days_at_each_step = 3
+        %h1 Caffeine Taper Plan
+        %p My current coffee intake is 4 cups per day. One cup of coffee has roughly 100mg caffeine, one cup of green tea has roughly 30mg (on average, <a href="https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20049372">source</a>). This plan should reduce intake my current intake by 30mg every #{days_at_each_step} days, tapering down to nothing in a total of #{ 4 * 3 * days_at_each_step - 1} days.
+        %table.table
+          %tbody
+          - date = Date.new(2020, 7, 18)
+          - (0..3).to_a.reverse.each do |coffee|
+            - (0..2).to_a.reverse.each do |tea|
+              - days_at_each_step.times do
+                - date = date+1
+                %tr
+                  %td=date
+                  %td
+                    - if coffee == 0 && tea == 0
+                      None
+                      - break
+                    - else
+                      = coffee.times.map { "☕️" }.join(" ")
+                      = tea.times.map { "🍵" }.join(" ")
