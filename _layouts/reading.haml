@@ -54,7 +54,7 @@
                   %h3.has-text-centered.title.is-5=key
                   %table.table.is-fullwidth
                     %tbody
-                      - counts.each do |field, count|
+                      - counts.sort_by {|field, count| -count }.each do |field, count|
                         %tr
                           %td=field
                           %td=count
