@@ -11,7 +11,7 @@
       .container
         %h2.title.is-1 Reading
         %p.content
-          The books I'm reading now and have read over the years. 
+          The books I'm reading now and have read over the years.
           %a{href: "/articles/2020/02/17/building-a-custom-reading-list-with-airtable/"} How does this work?
 
         %h2.title.is-3 Currently Reading
@@ -24,7 +24,7 @@
                   by
                   = reading["Book"]["Authors"]
                   %p.started-on
-                    Started 
+                    Started
                     %span.time-ago= Date.parse(reading["Started On"]).strftime("%B %d, %Y")
 
         - readings["by_year"].each do |year, data|
@@ -43,9 +43,10 @@
                   = " total"
                 - if goal.present?
                   of a #{goal} book goal.
-                  - if year.to_i == Date.current.year 
+                  - if year.to_i == Date.current.year
                     %span#progress-to-date{data: {goal: goal, read: read}}
-                    %progress.progress.is-small{value: read, max: goal}
+                    - if goal > read
+                      %progress.progress.is-small{value: read, max: goal}
 
 
             - data["stats"].each do |key, counts|

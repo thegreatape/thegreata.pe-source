@@ -16,6 +16,8 @@ $(function() {
   }
   if(goalBooksByNow == read) {
     message = 'On track!';
+  } else if (goal <= read) {
+    message = `Goal met - on track for ${goal + difference} ${books}!`;
   } else if (goalBooksByNow < read) {
     message = `${difference} ${books} ahead!`;
   } else {
