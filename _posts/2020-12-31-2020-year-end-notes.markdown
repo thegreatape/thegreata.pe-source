@@ -1,0 +1,118 @@
+---
+title: '2020 Year End Notes'
+layout: post
+---
+
+This was another year I waffled on writing this review. 2020 has been a shitshow for everyone, myself included, but I've had some tremendous privilege and luck in how I've weathered the worst of it. It feels ungrateful to be writing very inward-looking reflections at the year's close, but I think I'll be glad I did later on.
+
+## Lifting
+
+Having spent the last five years outfitting my basement gym was certainly my personal "accidentally prepped for the pandemic" moment. Lifting is a big part of my mental health care and I'm grateful to have been able to avoid the scramble for space and equipment when it became clear things weren't going back to normal any time soon.
+
+I still started the year in a pretty lousy place. I'd been dealing with some mysterious underarm pain since late 2019 and I had to cut out all overhead work, heavy deadlifting and most rowing for a while. It all turned out to be trigger points in my rotator cuff, but it took until late spring to diagnose and address. I didn't deadlift from the floor until June, and didn't cross off the last movement off the Avoid list until early fall.
+
+Training since getting that ironed out has been great. I've been doing the kind of submaximal accumulate-lots-of-volume training that's worked well in the past, specifically the [Stronger by Science framework](https://www.strongerbyscience.com/program-bundle/) (née Average to Savage). I've hit a bunch of rep PRs and even some new year-end 1RMs: 180 strict press, 245 bench press, 265 front squat, and 455 deadlift. Great to clock some new 1RMs for once! And even better to hit them at the year-end pause in the middle of a low specificity hypertrophy block and after only a few months of not training around an injury.
+
+The only notable new thing this year training-wise has been starting each session with an overwarm heavy single: usually something like ~90% of 1RM, with the goal to have two more good reps in reserve. The bulk of my training was submax, and I was suprised how even just a little practice with those singles kept me acclimated to heavy weights without much extra fatigue.
+
+The plan for next year is "more of the same": 
+
+* Don't get hurt. 
+* Stick to the structure that's worked so far.
+* Keep working on filling out my frame.
+
+## Reading
+
+I moved away from tracking my reading in Goodreads to my [custom Airtable-powered system](https://thegreata.pe/articles/2020/02/17/building-a-custom-reading-list-with-airtable/) early this year. I'm still very pleased with it. It also made the by-the-numbers part of this review a matter of copy and paste!
+
+<div class="reading">
+<div class="columns">
+<div class="column">
+<div class="box stats-box has-text-centered">
+<h3 class="title is-5">Read</h3>
+<div class="title read-count is-1">44</div>
+books of a 35 book goal.
+<div id="progress-to-date">Goal met!</div>
+</div>
+</div>
+<div class="column">
+<div class="box stats-box">
+<h3 class="has-text-centered title is-5">Author Background</h3>
+<table class="table is-fullwidth">
+<tbody>
+<tr>
+<td>by-men</td>
+<td>24</td>
+</tr>
+<tr>
+<td>by-women</td>
+<td>16</td>
+</tr>
+<tr>
+<td>by-lgbtq-author</td>
+<td>9</td>
+</tr>
+<tr>
+<td>by-people-of-color</td>
+<td>7</td>
+</tr>
+<tr>
+<td>by-non-binary-authors</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="column">
+<div class="box stats-box">
+<h3 class="has-text-centered title is-5">Genres</h3>
+<table class="table is-fullwidth">
+<tbody>
+<tr>
+<td>fantasy</td>
+<td>25</td>
+</tr>
+<tr>
+<td>nonfiction</td>
+<td>8</td>
+</tr>
+<tr>
+<td>sci-fi</td>
+<td>8</td>
+</tr>
+<tr>
+<td>fitness</td>
+<td>2</td>
+</tr>
+<tr>
+<td>tech</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+<p></p>
+
+The full book list for the year is on the [yearly reading page](https://thegreata.pe/reading/). I clocked more re-reads than recent years, at nine re-read books. I think that my "forgotten enough details to enjoy again" horizon is at least 2 years; this was the first time some of the re-reads felt too close to the previous ones.
+
+ Only a few notable reads to call out:
+- **[The Shallows](https://www.portersquarebooks.com/book/9780393339758) by Nicholas Carr**: I expected an *internet bad* thinkpiece and instead got a nuanced take on media, technology and cognition's relationship. Written in 2010, and holds up better than it has a right to (outside of some whiffs on where books themselves were heading).
+- **[Peace Talks](https://www.portersquarebooks.com/book/9780451464415) and [Battle Ground](https://www.portersquarebooks.com/book/9780593199305) by Jim Butcher**: The Dresden Files was the series that helped me restart my reading habit a decade ago, and it always feels coming home (problematic bits and all).
+
+
+## Career
+
+I've been working at BookBub for more than half a decade now. One of the things that's kept me there—second only to the wonderful crew of humans I work alongside—is the ability to move between teams periodically and work on a totally new domain. I'd spent the last year and a half on our data engineering team, caretaking a data warehouse and building a self-serve ETL platform for other engineering teams. In the fall, I did an entire 180 (or 540?) and switched to a team working on our audiobooks mobile app. Going from databases and analytics to mobile dev has definitely kept my professional life from feeling stale. We're using React Native and coming up to speed on all the JS tooling from the last three-ish years—without actually doing web dev—somehow feels very on-brand for me.
+
+## Time & Attention
+
+This is always where I struggle the most, and surprising exactly no one, this year was not an exception. 2020 took all of last year's progress in habits and just sorta bulldozed it.
+
+Most of the things I have tried before to curb bad internet habits—like [auto-scrubbing of browser history](https://thegreata.pe/articles/2020/05/07/attentional-homesteading/) and [automatic site blocking upon laptop wake](https://thegreata.pe/articles/2016/08/28/defusing-distracting-defaults/)—have not truly made much of a dent. I wanted to push more on this area in 2020 but pandemic isolation/fear and election anxiety well and truly torpedoed that. I'm giving myself until Jan 20 of 2021 before I start trying to figure out the right way to pull myself out of scrolling again, doom or otherwise.
+
+I will say I'm currently experimenting with [Mailbrew](https://mailbrew.com/) as a way to keep up with news and some folks on Twitter on a once-a-day cadence. We'll see if it turns into something helpful or another failed experiment.
