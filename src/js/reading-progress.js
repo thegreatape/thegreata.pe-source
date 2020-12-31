@@ -2,6 +2,9 @@ import $ from "cash-dom";
 
 $(function() {
   const { goal, read } = $('#progress-to-date').data();
+  if(!goal && !read) {
+    return;
+  }
   const today = new Date();
   const yearStart = new Date(today.getFullYear(), 0, 1);
   const daysSoFar = (today - yearStart) / 1000 / 60 / 60 / 24;
