@@ -1,0 +1,61 @@
+---
+layout: post
+title: Using pihole for time of day based per-client site blocking
+---
+
+I've recently been trying a new tactic to reform my relationship with news and social media, and it's been going pretty well. Specially, I'm using [pihole](https://pi-hole.net/) to block distracting sites and apps at certain times of day on my wifi network. This allows for a limited window of time to engage with the ones I still get some value out of, but keeps them blocked while I'm trying to work or unwind. The blocking is limited to a list of my personal devices on the network—while Instagram might be a distraction for me, it's a part of business for my wife, and this allows me to have a separate set of blocking rules.
+
+## How Pihole works
+
+Pi-hole is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) - it runs as a DNS server on my network and returns a non-routable result for any domain on its blocklists. While designed for ad blocking, it can also be used to block whatever domains you want: in addition to attention span protection, I've even used it to simulate remote outages when testing software at work! It's designed to run fast on very limited hardware; I'm running it on a [Raspberry Pi 4 Model B]( https://www.raspberrypi.org/products/raspberry-pi-4-model-b/ ) that cost me about $70 with a power adapter, SD card and case.
+
+## Setup
+
+Almost all the setup here can be done through the pihole's web admin interface, but I definitely recommend reading the [full pihole docs](https://docs.pi-hole.net/) so you understand what's going on.
+
+I first [set up pihole](https://github.com/pi-hole/pi-hole/#one-step-automated-install) running on the raspberry pi with the default installation settings. I then set pihole as both the DNS server and DHCP server; this was simply a matter of disabling both DNS and DHCP functions on my router, then clicking Settings -> DHCP -> "DHCP server enabled" in the pihole web admin. Pihole needs to act as the DHCP server in order to distinguish clients from each other; if we let the router act as the DHCP server, it'll forward all the DNS requests to the pihole and each request will look like it's coming from the router instead of individual computers.
+
+After a restart, each computer on my network got its IP address from the pihole and starting using it to make DNS requests. As they connected, I added each client connecting to the pi into a new group: either Thomas's Computers or Elizabeth's Computers. They were also added to the default group for ad blocking.
+
+After this, I set up two new Adlists. These are a pair of files hosted on GitHub with list of domains to sinkhole, divided into two categories:
+
+1. [Always Blocked](https://raw.githubusercontent.com/thegreatape/pihole-blocklists/main/thomas/always-blocked.hosts): sites that never have a positive signal to noise ratio, and I've found to be a net negative in any quantity.
+2. [Distracting](https://raw.githubusercontent.com/thegreatape/pihole-blocklists/main/thomas/always-blocked.hosts): sites I get some utility out of, but will be timesucks if I let them be available all the time.
+
+I assigned each of these new adlists to the Thomas's Computers group, but _not_ the default group, so it won't affect my wife's devices. The urls above point at the `main` branch, so when I update the files to add or remove domains, I only need to run Update Gravity through the pihole admin (or `pihole -g` via an ssh session) to pull in the new lists.
+
+And finally, the last piece: to block and unblock the Distracting list at various times of day. While pihole doesn't have a cli command to enable or disable adlists dynamically, they do have [documentation on how its internal SQLite db is laid out](https://docs.pi-hole.net/database/gravity/). You can connect to it by running `sqlite3 /etc/pihole/gravity.db`. I grabbed the id of each adlist with `select * from adlist`, which let me toggle the adlist on and off with the query `update adlist set enabled = false where id = <adlistid>;`  To make this happen automatically at the right times of day, I added the following cron commands (using `sudo crontab -e`) to run a simple block and unblock script:
+
+{% highlight crontab %}
+# m h dom mon dow command
+0 17 * * * bash -lc /home/pi/unblock-distractions.sh
+0 19 * * * bash -lc /home/pi/block-distractions.sh
+0 6 * * *  bash -lc /home/pi/unblock-distractions.sh
+0 9 * * *  bash -lc /home/pi/block-distractions.sh
+{% endhighlight %}
+
+{% highlight bash %}
+#!/bin/bash
+#
+# block-distractions.sh
+#
+echo 'blocking distractions...'
+export PATH="$PATH:/usr/sbin:/usr/local/bin/"
+sqlite3 /etc/pihole/gravity.db "update adlist set enabled = true where id = 5;"
+pihole restartdns
+{% endhighlight %}
+
+{% highlight bash %}
+#!/bin/bash
+#
+# unblock-distractions.sh
+#
+echo 'unblocking distractions...'
+export PATH="$PATH:/usr/sbin:/usr/local/bin/"
+sqlite3 /etc/pihole/gravity.db "update adlist set enabled = false where id = 5;"
+pihole restartdns
+{% endhighlight %}
+
+Yes, the scripts are nearly identical and could be parameterized, but cron and arguments are fussy, so—I didn't.
+
+And that's it! This unblocks sites in my distractions list from 6-9am and again from 5-7pm; outside of that, they're blocked on all the computers I own. I've been running this setup for about two weeks now, and it's nice: no third party programs to install on my devices and works across laptop, phone and tablet with no extra work.
