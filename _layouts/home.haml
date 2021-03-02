@@ -4,7 +4,7 @@
   %body.home
     {% haml nav.haml %}
     %section.section
-      .container
+      .container.articles
         {% for post in site.posts %}
         {% unless post.next %}
         %h2.title.is-3.year {{ post.date | date: '%Y' }}
@@ -15,8 +15,7 @@
         %h2.title.is-3.year {{ post.date | date: '%Y' }}
         {% endif %}
         {% endunless %}
-        .article.is-size-5
-          %a.article-title{href: "{{ site.url }}{{ post.url }}", title: "{{ post.title }}"} {{ post.title }}
-          %span.post-date {{ post.date | date: '%b %d' }}
+        %span.is-size-5.post-date {{ post.date | date: '%b %d' }}
+        %a.article.is-size-5.article-title{href: "{{ site.url }}{{ post.url }}", title: "{{ post.title }}"} {{ post.title }}
         {% endfor %}
   {% include goatcounter.html %}

@@ -1,18 +1,20 @@
-$article-date-offset: 85px;
-
 .home {
-  .year {
-    margin-top: 20px;
-    &:first-child {
-      margin-top: 0px;
+  .articles {
+    display: grid;
+    grid-template-columns: 85px auto;
+
+    .year {
+      margin-top: 20px;
+      grid-column-start: span 2;
+      &:first-child {
+        margin-top: 0px;
+      }
     }
-  }
-  .article {
-    margin-left: $article-date-offset;
-    margin-bottom: 1px;
+    .article {
+      margin-bottom: 1px;
+    }
     .post-date {
       float: left;
-      margin-left: -$article-date-offset;
       text-transform: uppercase;
       color: $grey;
     }
