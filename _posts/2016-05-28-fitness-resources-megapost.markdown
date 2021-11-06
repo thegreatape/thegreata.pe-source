@@ -5,7 +5,7 @@ redirect_from:
 - "/fitness-resources-megapost"
 ---
 
-_Last updated October 14th, 2018: see **[changelog](#changelog)**_
+_Last updated November 6th, 2021: see **[changelog](#changelog)**_
 
 I'm a huge fitness nerd, and I'll talk your ear off about all aspects of physical training given half a chance. I frequently wind up sending reading recommendations to people who're interested in knowing more after chatting, and figured it was time to put together a big list of the fitness resources I've gotten the most out of.
 
@@ -70,7 +70,7 @@ I'm a notoriously unlimber person and my 20s were full of the kind of problems y
 
 As it turns out, the tools you need to move well through the full range of motion while lifting have huge overlap with the tools you can use to fix an awful wide variety of chronic musculur pain.
 
-- __[MobilityWOD videos](https://www.youtube.com/playlist?list=PLB67wXqPqtMcNVA-UndNUy7bahGJzLQbT)__ — Kelly Starrett is a mad scientist of mobility, and the amount of content he has out there is pretty overwhelming. He also has a book out that's a little more organized, called (sigh) [Becoming A Supple Leopard](http://www.amazon.com/Becoming-Supple-Leopard-2nd-Performance/dp/1628600837), but I'd honestly just recommend hitting up that YouTube channel, doing one video a day and see what you learn about how your body reacts to each session.
+- __[MobilityWOD videos](https://www.youtube.com/playlist?list=PLB67wXqPqtMcNVA-UndNUy7bahGJzLQbT)__ — Kelly Starrett is one of those folks I have to recommend with caveats. He's got a bunch of inventive stretches and massage techniques that've helped me out a ton. But be aware: some of his techniques aren't very evidence-backed ("voodoo flossing") and he's got some weird early-aughts Crossfit dogma in his nutritional advice and lifting technique stuff. Still worth sifting through for the helpful parts. He has a book out that's a little more organized, called (sigh) [Becoming A Supple Leopard](http://www.amazon.com/Becoming-Supple-Leopard-2nd-Performance/dp/1628600837), but I'd honestly just recommend hitting up that YouTube channel, doing one video a day and see what you learn about how your body reacts to each session.
 
 - __[The Trigger Point Therapy Workbook](http://www.amazon.com/Trigger-Point-Therapy-Workbook-Self-Treatment/dp/1608824942)__ — Picked up an earlier edition of this one to help me with an RSI scare almost a decade ago, and it's been helping me debug my aches and pains ever since. Incredibly valuable just for the referred pain maps.
 
@@ -94,11 +94,13 @@ Getting my diet on point and actually being accountable for what I'm eating has 
 
 Fitness podcasts I've found worth listening to:
 
+- [Stronger By Science](https://www.sbspod.com/) Greg and Eric from SBS do research reviews, practical coaching/training/nutrition tips, and more dry, mildly nilhilist humor than you might expect. 
+
+- [Iron Culture](https://ironculture.libsyn.com/) Big range of lifting topics and great guests.
+
 - [Revive Stronger](http://revivestronger.com/podcast/) Powerlifting and bodybuilding podcast that does a lot of good interviews with coaches and sports scientists. The Q&A sessions with regular guests (Mike Israetel in particular) are great.
 
 - [3D Muscle Journey](http://3dmusclejourney.com/podcast/) Weekly roundtables from the coaches at 3DMJ, mostly bodybuilding focused.
-
-- [The Jugg Life](https://thejugglife.com/) Powerlifting and Olympic weightlifting, more focused on the competitive side of the sports.
 
 ## <a name="#form-guides"></a>[Specific Exercises: Form Guides, Cues, and Tips](#form-guides)
 
@@ -141,6 +143,10 @@ Fitness podcasts I've found worth listening to:
 - __[Fix Your Kettlebell Clean](https://www.jensinkler.com/fix-your-kettlebell-clean/)__ Another Light Dawns on Marblehead moment for yours truly—I never quite got how to clean without landing the bell heavily on my arm until I tried out Jen's cues.
 
 ## <a name="changelog"></a>[Changelog](#changelog)
+__2021-11-06__:
+* Update podcasts: remove Jugglife, add Iron Culture and SBS.
+* Add nuance to Kelly Starrett rec.
+
 __2018-10-14__:
 * Replace _Fit_ with _The Muscle and Strength Pyramids_.
 
