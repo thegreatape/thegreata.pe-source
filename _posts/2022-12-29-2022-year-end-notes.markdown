@@ -1,0 +1,61 @@
+---
+layout: post
+title: 2022 Year End Notes
+---
+
+I didn’t write any year end notes last year, because I didn’t have the heart: for my personal life, 2021 managed to be much worse than 2020 somehow. But I like this tradition of reflection in a year-end writeup, so here we go again for 2022.
+
+## Pixel!
+
+In September, my wife and I adopted a 7-month old puppy we named Pixel. She’s a lovely girl and has made herself right at home in our household.
+
+![pixel_2.jpeg](/images/pixel_1.jpeg)
+
+She’s been getting along with our older dog Ripley very well, though they are complete opposites personality-wise.
+
+![pixel_2.jpeg](/images/pixel_2.jpeg)
+
+Did I order a label maker just so I can emblazon my fur-wrangling hand vac with “Property of Sisyphus”? Maybe!
+
+## Work
+
+I’m more than two years into doing mobile development full-time, and it’s been interesting. Some observations from that time:
+
+Kotlin and Swift are great languages. Well-designed modern type systems are really a breath of fresh air when it comes to reasoning about changes in an application. It’s starting to change now, but I feel like I used to run into a lot of people whose last experience with static typing was early 2000s Java. I can’t blame people for taking away “it’s all yelling at the compiler for no benefit” from that era, but I hope people are beginning to be more open to sampling new ideas on that front.
+
+Mobile development has really scrambled a lot of my instincts how to go about building and releasing software. The calculus changes a *lot* when you don’t own all the computers your code runs on and when deploying a new version is gated by an often opaque and unpredictable app review process. Even stuff like observability and debugging production issues is different, in mostly harder ways.
+
+It's a strange feeling to realize that I'm *years* removed from doing full time web development at this point—prior to this stint on a mobile team, I was on a data engineering team for around two years.  It's been an interesting time to watch the web frontend landscape go by without any real skin in that game, and I'm pretty interested in where [Turbo](https://turbo.hotwired.dev/) is going. It seems like a great way to return to some of what I loved about Rails in the beginning. If I manage to sit out the browser React era entirely, I'm not going to cry too hard about it.
+
+## Lifting
+
+Lifting remains a very meaningful hobby to me, and I am grateful for my homegym. Progress has been slow and incremental this year, but that’s to be expected after doing this for a while—I’m still hitting rep PRs here and there, which means improvement is happening. I’m in the process of moving from my hand-maintained spreadsheet for tracking those PRs to a new web app. It’s a nice thing to write software that’s Just For You sometimes.
+
+I’ve been incorporating more and more specialty bars in my training (and am again grateful I have the resources to get them for my home gym). The only main lift done with a straight bar in my current training block is the bench press. Otherwise, I’m using a [safety squat bar](https://www.roguefitness.com/sb-1-rogue-safety-squat-bar) for squats, a [trap bar ](https://www.titan.fitness/strength/barbells/specialty/rackable-hex-trap-bar-v3/430144.html)for deadlifts, and [a strongman log](https://www.titan.fitness/strongman/grip-training/log-bars/rackable-strongman-log-bars/RCKLOG.html) for overhead pressing. I think the SSB is likely to be my main squatting bar more or less forever—I just haven’t found a way to make my elbows happy with a straight bar on my back. I’ll probably return to conventional deadlifts and overhead pressing at some point, though.
+
+The plan for next year is to finish cutting down to “actually lean”, with as many maintenance phases as it takes—probably ending sometime in early spring.  Then I'm hoping to do a slow bulk for a *long* time (like, 20+ months) and mostly stay on hypertrophy-oriented programming. I’ve had a lot of success in the last year with programming from Alex Bromley's [Base Strength book](https://www.amazon.com/Base-Strength-Program-Design-Blueprint-ebook/dp/B08R5J58F8/), so I'll probably continue pulling from there.
+
+## Reading
+
+I didn’t quite make [my reading goal this year](https://thegreata.pe/reading/). I'm not beating myself up over that, but it's a trend I'd like to change in the next year—if for no other reason than I know that my mental health is better when I spend more time reading.
+
+An interesting sidebar from looking at my reading logs: I seem to go through a late-spring reading slump most years. I have no idea why.
+
+Some notable books/series from 2022:
+
+   - [There Is No Antimemetics Division](https://www.amazon.com/There-No-Antimemetics-Division-qntm-ebook/dp/B08FHHQRM2) by qntm— It's been a while since I read sci-fi I'd describe as mind-bending, and this finally hit the spot.
+   - [The Dagger and the Coin](https://bookshop.org/p/books/the-dragon-s-path-daniel-abraham/109387?ean=9780316080682) by Daniel Abraham — A character-centered slow burn fantasy epic I really enjoyed. Takes a bit to get going, but just so well done.
+   - [The Final Architecture](https://bookshop.org/p/books/shards-of-earth-adrian-tchaikovsky/17089652?ean=9780316705844) by Adrian Tchaikovsky— Best space opera I've read in years. Final book is out in April 2023 and I can’t wait. I really want to read more of Tchaikovsky's backlist soon.
+   - [The Staff Engineer's Path](https://bookshop.org/p/books/the-staff-engineer-s-path-a-guide-for-individual-contributors-navigating-growth-and-change-tanya-reilly/18369968?ean=9781098118730) by Tanya Reilly — A book I wish I'd had 4-5 years ago—finally something I can shove into the hands of developers who want to grow without moving into management. Tech friends and colleagues are probably already sick of me asking “oh, did I recommend this to you yet?”
+
+## Misc Notables
+
+A short list of stuff I’ve liked this year:
+
+   - [Craft](https://www.craft.do/) — I'm writing this in Craft right now, and I've moved all my note-taking and writing to it this year. It feels like what Notion could have been if they'd prioritized speed and the offline experience. I *really* like their sharing features; I can get a url to share notes with my team in two clicks, with optional expiry and auth.
+   - [GOWOD](https://www.gowod.app/) — This app hits the 80/20 sweet spot of actually getting me to do my stretching and mobility work. It's got periodic assessments to track progress, helps focus on your problem areas and most of all is perfect for just following along for 10-15 min before bed without having to think.
+   - [Mailbrew](https://mailbrew.com/) — I've been using Mailbrew for just under two years now and I love it. I originally started using it to keep up with a handful of friends on the birdsite, and now use it as a daily RSS feed aggregator as well.
+   - [Mastodon](https://mastodon.social/@thegreatape) — It's the only public social media I've regularly posted on in years. To be honest, I don't know if that will last: it's Not Twitter, but there are a lot of people who still want it to combine the watercooler with the street corner megaphone. Nothing wrong with either, but I don't want to mix the two. I guess we'll see.
+   - [Disabling Safari on my phone](https://www.cyberghostvpn.com/en_US/privacyhub/remove-safari/) — A rare attention-span reclamation tactic that seems to be sticking. No more times when I find myself standing with my phone in my hand, reading some anxiety-spiking bit of news… with no conscious memory of pulling out my phone, let alone *deciding* to read the news.
+   - Tapering down caffeine — I cut my coffee intake in half this year, and it had an embarrassingly good impact on my mental health.
+
