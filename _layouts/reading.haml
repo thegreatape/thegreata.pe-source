@@ -69,11 +69,11 @@
             %tbody
               - months = data["readings"].group_by {|r| Date.parse(r["Finished On"]).month }.to_a.sort
               - months.each_with_index do |pair, month_index|
-                - month, readings = pair
-                - readings.sort {|a, b| a["Finished On"] <=> b["Finished On"] }.each_with_index do |reading, i|
+                - month, month_readings = pair
+                - month_readings.sort {|a, b| a["Finished On"] <=> b["Finished On"] }.each_with_index do |reading, i|
                   %tr
                     - if i == 0
-                      %td{rowspan: readings.length, class: month_index + 1 == months.length ? "last-month-in-year" : ""}=Date::MONTHNAMES[month]
+                      %td{rowspan: month_readings.length, class: month_index + 1 == months.length ? "last-month-in-year" : ""}=Date::MONTHNAMES[month]
                     %td
                       %strong=reading["Book"]["Title"]
                       by
@@ -83,5 +83,15 @@
                         = reading["Rating"].times.map{ "\u2605"}.join
                       - else
                         %span.not-rated Not Rated
+
+          %h3.title.is-6 Did Not Finish
+          .content.dnf-section
+            %ul
+              - readings["did_not_finish_by_year"][year]&.each do |reading|
+                %li
+                  %strong=reading["Book"]["Title"]
+                  by
+                  =reading["Book"]["Authors"]
+
 
   {% include goatcounter.html %}

@@ -1,4 +1,4 @@
-
+require 'date'
 require 'dotenv/load'
 require 'byebug'
 require 'pp'
@@ -44,6 +44,20 @@ class SyncReading
     end
   end
 
+  def did_not_finish
+    @_did_not_finish ||= begin
+      print "saving DNFed books... "
+      readings = Reading.all(filter: "NOT({Stopped Reading On} = BLANK())")
+      readings.map {|r| r.fields.merge("Book" => r.book.fields)}.tap do
+        puts "done"
+      end
+    end
+  end
+
+  def did_not_finish_by_year
+    did_not_finish.group_by{|r| Date.parse(r["Stopped Reading On"]).year }
+  end
+
   def by_year
     finished.group_by {|r| r["Read In Year"] }.map do |year, readings|
       next if year == "Not Yet Finished"
@@ -78,7 +92,8 @@ class SyncReading
   def save_reading_history(filename)
     book_data = {
       "currently_reading" => currently_reading,
-      "by_year" => by_year
+      "by_year" => by_year,
+      "did_not_finish_by_year" => did_not_finish_by_year
     }
     save(book_data, filename)
   end
