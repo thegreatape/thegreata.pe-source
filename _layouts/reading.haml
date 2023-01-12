@@ -84,14 +84,20 @@
                       - else
                         %span.not-rated Not Rated
 
-          %h3.title.is-6 Did Not Finish
-          .content.dnf-section
-            %ul
-              - readings["did_not_finish_by_year"][year]&.each do |reading|
-                %li
-                  %strong=reading["Book"]["Title"]
-                  by
-                  =reading["Book"]["Authors"]
-
+          -if readings["did_not_finish_by_year"][year].present?
+            %table.table.is-fullwidth
+              %thead
+                %tr
+                  %th Did Not Finish
+                  %th Month
+              %tbody
+                - readings["did_not_finish_by_year"][year]&.each do |reading|
+                  %tr
+                    %td
+                      %strong=reading["Book"]["Title"]
+                      by
+                      =reading["Book"]["Authors"]
+                    %td
+                      = Date::MONTHNAMES[Date.parse(reading["Stopped Reading On"]).month]
 
   {% include goatcounter.html %}
