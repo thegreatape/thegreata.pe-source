@@ -36,10 +36,18 @@
   .content ul {
     list-style: disc inside;
   }
+
+  ul.social-accounts {
+    list-style: none outside none;
+    a {
+      color: #4a4a4a;
+
+    }
+  }
 }
 
 .reading {
-  .stats-box { 
+  .stats-box {
     height: 100%;
     padding-left: 2.25rem;
     padding-right: 2.25rem;
